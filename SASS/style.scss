@@ -1,0 +1,31 @@
+/*!
+Theme Name: MyPortfolio
+Theme URI:
+Author: Enza Lombardo
+Author URI: http://www.enzalombardo.be
+Description: My Portfolio online
+Version: 1.0
+Text Domain: MyPortfolio
+copyright : Enza ©2022
+Tags:
+*/
+
+// VENDOR -------------------------------
+
+// UTILITIES ----------------------------
+@import "./utilities/utilities";
+
+// BASE ---------------------------------
+@import "./base/base";
+
+// COMPONENTS ---------------------------
+@import "./components/components";
+
+// ELEMENTS -----------------------------
+@import "./elements/elements";
+
+// FORM ---------------------------------
+@import "./forms/forms";
+
+// LAYOUT -------------------------------
+@import "./layout/layout";
