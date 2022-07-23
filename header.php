@@ -27,3 +27,8 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+<!-- Provisoir -->
+
+<?php get_template_part('template-parts/navigation/lang'); ?>
+<?php get_template_part('template-parts/navigation/principal'); ?>
