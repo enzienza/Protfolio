@@ -47,7 +47,7 @@ if(!function_exists('myportfolio_supports')){
         ) );
 
         // Make customtheme available for translation. Translations can be filed in the /languages/ directory.
-        load_theme_textdomain( 'MyCV', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'MyPortfolio', get_template_directory() . '/languages' );
     }
 }
 add_action('after_setup_theme','myportfolio_supports' );
