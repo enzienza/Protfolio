@@ -1,0 +1,16 @@
+// main: ../_base.scss
+
+.tracking{
+    &-1{
+        letter-spacing: 0em;
+    }
+    &-2{
+        letter-spacing: 0.025em;
+    }
+    &-3{
+        letter-spacing: 0.05em;
+    }
+    &-4{
+        letter-spacing: 0.1em;
+    }
+}

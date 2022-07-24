@@ -1,0 +1,15 @@
+// main: ../_utilities.scss
+
+//Effet filtre degradé lineaire
+@mixin linear-gradient($direction, $debut, $fin) {
+    background-image: -webkit-linear-gradient($direction, $debut, $fin);
+    background-image: -o-linear-gradient($direction, $debut, $fin);
+    background-image: linear-gradient($direction, $debut, $fin);
+}
+
+// Effet filtre degradé radial
+@mixin radial-gradient($direction, $debut, $fin) {
+    background-image: -webkit-radial-gradient($direction, $debut, $fin);
+    background-image: -o-radial-gradient($direction, $debut, $fin);
+    background-image: radial-gradient($direction, $debut, $fin);
+}

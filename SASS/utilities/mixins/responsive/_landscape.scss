@@ -1,0 +1,28 @@
+// main: ../_utilities.scss
+
+
+// ------------------------------------------------------------
+// BREAKPOINT - Responsive widths [orientation:landscape]
+// ------------------------------------------------------------
+$XS:  320px;
+$S:   480px;
+$M:   768px;
+$L:   992px;
+$XL: 1200px;
+
+// ------------------------------------------------------------
+// BREAKPOINT - MIXIN
+// ------------------------------------------------------------
+@mixin landscape($breakpoint){
+    @if $breakpoint == XS {
+        @media only screen and (min-width: $XS) and (max-width: calc(#{$M} - 1px)) and (orientation: landscape){
+            @content;
+        }
+    }
+    @if $breakpoint == SM {
+        // @media all and (orientation: landscape) {
+        @media only screen and (min-width: $M) and (max-width: calc(#{$L} - 1px)) and (orientation: landscape) {
+            @content;
+        }
+    }
+}

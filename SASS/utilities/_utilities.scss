@@ -1,0 +1,43 @@
+// main: ../style.scss
+
+
+// =======================================================
+// VARIABLES
+// =======================================================
+@import "variables/flaticons";
+@import "variables/typographies";
+@import "variables/colors";
+
+
+// =======================================================
+// MIXINS
+// =======================================================
+// responsive ...............................
+@import "mixins/responsive/breakpoint";
+@import "mixins/responsive/landscape";
+
+// background ...............................
+@import "mixins/background/bg-gradient";
+@import "mixins/background/bg-image";
+
+// boxes ...................................
+@import "mixins/boxes/box-shadow";
+
+// flex-grid ................................
+@import "mixins/flex-grid/align";
+@import "mixins/flex-grid/flexbox";
+@import "mixins/flex-grid/grid";
+@import "mixins/flex-grid/justify";
+
+// other ....................................
+@import "mixins/other/tranform";
+@import "mixins/other/transition";
+@import "mixins/other/filter";
+@import "mixins/other/objectfit";
+
+// =======================================================
+// ANIMATIONS
+// =======================================================
+@import "animations/morph";
+@import "animations/fadeIn";
+@import "animations/animationProgress";

@@ -1,0 +1,35 @@
+// main: ../_utilities.scss
+
+
+// COLORS PRIMARY ------------------------------------------------------
+//$color-primary: #8f4ec7;
+$color-primary: #b300b3;
+//$color-primary: #c53362;
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%);
+
+// COLORS SECONDARY ----------------------------------------------------
+
+// COLORS GREY ---------------------------------------------------------
+$color-grey: #c3c3c3;
+//$color-grey: #626367;
+$color-grey-light: lighten($color-grey, 10%);
+$color-grey-dark: darken($color-grey, 10%);
+
+// COLORS DARK ---------------------------------------------------------
+//$color-dark: #0f0029;
+$color-dark: darken($color-primary, 50%);
+$color-night: #242525;
+
+// COLORS LIGHT --------------------------------------------------------
+$color-light: #fafafa;
+
+// COLORS ASIDE --------------------------------------------------------
+$color-aside: #ebebeb;
+
+// COLORS ALERT --------------------------------------------------------
+$color-danger: #B94A48;
+$color-success: #468847;
+
+
+// COLORS INFO ---------------------------------------------------------

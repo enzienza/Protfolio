@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/*!
+Theme Name: MyPortfolio
+Theme URI:
+Author: Enza Lombardo
+Author URI: http://www.enzalombardo.be
+Description: My Portfolio online
+Version: 1.0
+Text Domain: MyPortfolio
+copyright : Enza ©2022
+Tags:
+*/
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@font-face {
+  font-family: "Flaticon";
+  src: url("./assets/fonts/flaticon/flaticon.ttf?458ce3cb269caeee995a1f13a6aad1e8") format("truetype"), url("./assets/fonts/flaticon/flaticon.woff?458ce3cb269caeee995a1f13a6aad1e8") format("woff"), url("./assets/fonts/flaticon/flaticon.woff2?458ce3cb269caeee995a1f13a6aad1e8") format("woff2"), url("./assets/fonts/flaticon/flaticon.eot?458ce3cb269caeee995a1f13a6aad1e8#iefix") format("embedded-opentype"), url("./assets/fonts/flaticon/flaticon.svg?458ce3cb269caeee995a1f13a6aad1e8#flaticon") format("svg"); }
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before,
+i[class^="flaticon-"]:after, i[class*=" flaticon-"]:after {
+  font-family: flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1; }
+
+.flaticon-instagram:before {
+  content: ""; }
+
+.flaticon-heart:before {
+  content: ""; }
+
+.flaticon-facebook:before {
+  content: ""; }
+
+.flaticon-whatsapp:before {
+  content: ""; }
+
+.flaticon-twitter:before {
+  content: ""; }
+
+.flaticon-linkedin:before {
+  content: ""; }
+
+.flaticon-pin:before {
+  content: ""; }
+
+.flaticon-messenger:before {
+  content: ""; }
+
+.flaticon-worldwide:before {
+  content: ""; }
+
+.flaticon-email:before {
+  content: ""; }
+
+.flaticon-telephone:before {
+  content: ""; }
+
+.flaticon-github:before {
+  content: ""; }
+
+.flaticon-user:before {
+  content: ""; }
+
+.flaticon-behance:before {
+  content: ""; }
+
+.flaticon-network:before {
+  content: ""; }
+
+.flaticon-mortarboard:before {
+  content: ""; }
+
+.flaticon-briefcase:before {
+  content: ""; }
+
+.flaticon-skills:before {
+  content: ""; }
+
+.flaticon-personal:before {
+  content: ""; }
+
+.flaticon-down-arrow:before {
+  content: ""; }
+
+.flaticon-up-arrow:before {
+  content: ""; }
+
+.flaticon-cv:before {
+  content: ""; }
+
+.flaticon-resume:before {
+  content: ""; }
+
+.flaticon-progress:before {
+  content: ""; }
+
+.flaticon-magnifying-glass:before {
+  content: ""; }
+
+.flaticon-user-1:before {
+  content: ""; }
+
+.flaticon-moon:before {
+  content: ""; }
+
+.flaticon-sun:before {
+  content: ""; }
+
+.flaticon-telegram:before {
+  content: ""; }
+
+.flaticon-notification:before {
+  content: ""; }
+
+.flaticon-star:before {
+  content: ""; }
+
+.flaticon-placeholder:before {
+  content: ""; }
+
+.flaticon-telegram-1:before {
+  content: ""; }
+
+.flaticon-facebook-1:before {
+  content: ""; }
+
+.flaticon-instagram-1:before {
+  content: ""; }
+
+.flaticon-twitter-1:before {
+  content: ""; }
+
+.flaticon-line:before {
+  content: ""; }
+
+.flaticon-linkedin-1:before {
+  content: ""; }
+
+.flaticon-behance-1:before {
+  content: ""; }
+
+.flaticon-github-1:before {
+  content: ""; }
+
+.flaticon-telegram-2:before {
+  content: ""; }
+
+.flaticon-github-2:before {
+  content: ""; }
+
+.flaticon-deal:before {
+  content: ""; }
+
+.flaticon-graduating-student:before {
+  content: ""; }
+
+.flaticon-experience:before {
+  content: ""; }
+
+.flaticon-download-circular-button:before {
+  content: ""; }
+
+.flaticon-youtube:before {
+  content: ""; }
+
+.flaticon-like:before {
+  content: ""; }
+
+.flaticon-like-1:before {
+  content: ""; }
+
+.flaticon-maison:before {
+  content: ""; }
+
+.flaticon-user-2:before {
+  content: ""; }
+
+.flaticon-chat:before {
+  content: ""; }
+
+.flaticon-download:before {
+  content: ""; }
+
+@keyframes morph {
+  0%, 100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%; }
+  33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%; }
+  66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%; } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@-webkit-keyframes animationProgress {
+  from {
+    width: 0; } }
+@keyframes animationProgress {
+  from {
+    width: 0; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  padding: 0;
+  line-height: inherit;
+  color: inherit; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth; }
+
+body {
+  line-height: 1.5;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  font-family: "Eczar", serif; }
+
+h1 {
+  font-size: calc(2em + 1vmin); }
+
+h2 {
+  font-size: calc(1.5em + 1vmin); }
+
+h3 {
+  font-size: 2.8em; }
+
+.text-color {
+  color: purple; }
+
+img {
+  max-width: 100%; }
+
+.visible {
+  visibility: visible; }
+
+.invisible {
+  visibility: hidden; }
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding-left: 19rem; } }
+@media only screen and (min-width: 992px) and (max-width: calc(1200px - 1px)) {
+  body {
+    padding-left: 19rem; } }
+@media only screen and (min-width: 768px) and (max-width: calc(992px - 1px)) {
+  section {
+    padding: 3rem; } }
+@media only screen and (min-width: 480px) and (max-width: calc(768px - 1px)) {
+  section {
+    padding: 3rem; } }
+@media only screen and (min-width: 320px) and (max-width: calc(480px - 1px)) {
+  section {
+    padding: 3rem; } }
+.font-thin {
+  font-weight: 100; }
+.font-extralight {
+  font-weight: 200; }
+.font-light {
+  font-weight: 300; }
+.font-normal {
+  font-weight: 400; }
+.font-medium {
+  font-weight: 500; }
+.font-semibold {
+  font-weight: 600; }
+.font-bold {
+  font-weight: 700; }
+.font-extrabold {
+  font-weight: 800; }
+.font-black {
+  font-weight: 900; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.tracking-1 {
+  letter-spacing: 0em; }
+.tracking-2 {
+  letter-spacing: 0.025em; }
+.tracking-3 {
+  letter-spacing: 0.05em; }
+.tracking-4 {
+  letter-spacing: 0.1em; }
+
+/*# sourceMappingURL=style.css.map */

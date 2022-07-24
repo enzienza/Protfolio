@@ -1,0 +1,10 @@
+// main: ../_utilities.scss
+
+// OBJECT-FIR
+// - définit la façon dont le contenu d'un élément remplacé
+// (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+// fill | contain | cover | none | scale-down
+@mixin object-fit($string){
+    -o-object-fit: cover;
+    object-fit: cover;
+}

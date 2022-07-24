@@ -1,0 +1,15 @@
+// main: ../_utilities.scss
+
+// #06 | FONT PAIRING | ECZAR (headings) + SOURCE SANS PRO (body) -----------------
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+// FONTS PRIMARY | FOR BODY --------------------------------------------------------
+$font-primary: "Source Sans Pro", sans-serif;
+
+
+// FONTS SECONDARY | FOR HEADINGS --------------------------------------------------
+$font-secondary: "Eczar", serif;
+
+// FONTS ICONS ---------------------------------------------------------------------
+$font-icon: "flaticon"

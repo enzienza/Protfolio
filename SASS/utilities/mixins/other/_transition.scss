@@ -1,0 +1,12 @@
+// main: ../_utilities.scss
+
+@mixin transition($string) {
+    -webkit-transition: $string;
+    -o-transition: $string;
+    transition: $string;
+}
+
+@mixin animation($string){
+    -webkit-animation: $string;
+    animation: $string;
+}

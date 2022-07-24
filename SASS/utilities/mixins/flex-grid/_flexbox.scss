@@ -1,0 +1,194 @@
+// main: ../_utilities.scss
+
+// -------------------------------------------------------------
+// DISPLAY
+// Flexbox display
+@mixin flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+// Inline flex display
+@mixin inline-flex{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+// flex-row-nowrap-center
+@mixin flex-row-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+// flex-colunm-nowrap-center
+@mixin flex-column-center{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -ms-flex-line-pack:center;
+    align-content:center;
+}
+
+//flex-column-wrap-center
+@mixin flew-col-wrap-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+}
+
+// flex-row-wrap-center
+@mixin flew-row-wrap-center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+// -------------------------------------------------------------
+// FLEX
+// - Utilitaires pour contrôler la croissance et la réduction des éléments flexibles.
+@mixin auto-flex($sting){
+    -webkit-box-flex:$sting;
+    -ms-flex:$sting;
+    flex: $sting;
+}
+
+// -------------------------------------------------------------
+// DIRECTION
+// - Utilitaires pour contrôler la direction des éléments flexibles.
+// row (default) | row-reverse | column | column-reverse
+@mixin flex-direction($direction: row) {
+    @if $direction == row-reverse {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+    } @else if $direction == column {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    } @else if $direction == column-reverse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+    } @else {
+        // row
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+    }
+    -webkit-flex-direction: $direction;
+    -ms-flex-direction: $direction;
+    flex-direction: $direction;
+}
+
+
+// -------------------------------------------------------------
+// FLEX-WRAP
+// - Utilitaires pour contrôler la façon dont les éléments flexibles s'enroulent.
+// nowrap | wrap | wrap-reverse
+@mixin flex-wrap($string){
+    -ms-flex-wrap: $string;
+    flex-wrap: $string;
+}
+
+// -------------------------------------------------------------
+// FLEX-FLOW
+// Flex Direction and Wrap - applies to: flex containers
+// <flex-direction> || <flex-wrap>
+@mixin flex-flow($string) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: $string;
+    flex-flow: $string;
+}
+
+// -------------------------------------------------------------
+// ORDER
+// Utilitaires pour contrôler l'ordre des éléments flex et flex-grid.
+// <integer>
+@mixin order($int: 0) {
+    -webkit-box-ordinal-group: $int + 1;
+    -moz-box-ordinal-group: $int + 1;
+    -webkit-order: $int;
+    -ms-flex-order: $int;
+    order: $int;
+}
+
+
+// -------------------------------------------------------------
+// FLEX-GROW
+// - Utilitaires pour contrôler la croissance des éléments flexibles.
+// <number>
+@mixin flex-grow($int: 1) {
+    -webkit-box-flex: $int;
+    -moz-box-flex: $int;
+    -webkit-flex-grow: $int;
+    -ms-flex: $int;
+    flex-grow: $int;
+}
+
+
+// -------------------------------------------------------------
+//FLEX-SHRINK
+// - Utilitaires pour contrôler la réduction de la taille des éléments flexibles.
+// <number>
+@mixin flex-shrink($int: 0) {
+    -webkit-flex-shrink: $int;
+    -moz-flex-shrink: $int;
+    -ms-flex: $int;
+    flex-shrink: $int;
+}
+
+// -------------------------------------------------------------
+// FLEX-BASIS
+// - the initial main size of the flex item
+// - applies to: flex itemsnitial main size of the flex item
+// <width>
+@mixin flex-basis($value: auto) {
+    -webkit-flex-basis: $value;
+    flex-basis: $value;
+}

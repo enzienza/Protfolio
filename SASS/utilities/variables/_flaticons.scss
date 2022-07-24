@@ -1,0 +1,241 @@
+// main: ../_utilities.scss
+
+
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("./assets/fonts/flaticon/flaticon.ttf?458ce3cb269caeee995a1f13a6aad1e8") format("truetype"),
+    url("./assets/fonts/flaticon/flaticon.woff?458ce3cb269caeee995a1f13a6aad1e8") format("woff"),
+    url("./assets/fonts/flaticon/flaticon.woff2?458ce3cb269caeee995a1f13a6aad1e8") format("woff2"),
+    url("./assets/fonts/flaticon/flaticon.eot?458ce3cb269caeee995a1f13a6aad1e8#iefix") format("embedded-opentype"),
+    url("./assets/fonts/flaticon/flaticon.svg?458ce3cb269caeee995a1f13a6aad1e8#flaticon") format("svg");
+}
+
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before,
+i[class^="flaticon-"]:after, i[class*=" flaticon-"]:after {
+    font-family: flaticon;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    //-webkit-font-smoothing: antialiased;
+    //-moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+        "instagram": "\f101",
+        "heart": "\f102",
+        "facebook": "\f103",
+        "whatsapp": "\f104",
+        "twitter": "\f105",
+        "linkedin": "\f106",
+        "pin": "\f107",
+        "messenger": "\f108",
+        "worldwide": "\f109",
+        "email": "\f10a",
+        "telephone": "\f10b",
+        "github": "\f10c",
+        "user": "\f10d",
+        "behance": "\f10e",
+        "network": "\f10f",
+        "mortarboard": "\f110",
+        "briefcase": "\f111",
+        "skills": "\f112",
+        "personal": "\f113",
+        "down-arrow": "\f114",
+        "up-arrow": "\f115",
+        "cv": "\f116",
+        "resume": "\f117",
+        "progress": "\f118",
+        "magnifying-glass": "\f119",
+        "user-1": "\f11a",
+        "moon": "\f11b",
+        "sun": "\f11c",
+        "telegram": "\f11d",
+        "notification": "\f11e",
+        "star": "\f11f",
+        "placeholder": "\f120",
+        "telegram-1": "\f121",
+        "facebook-1": "\f122",
+        "instagram-1": "\f123",
+        "twitter-1": "\f124",
+        "line": "\f125",
+        "linkedin-1": "\f126",
+        "behance-1": "\f127",
+        "github-1": "\f128",
+        "telegram-2": "\f129",
+        "github-2": "\f12a",
+        "deal": "\f12b",
+        "graduating-student": "\f12c",
+        "experience": "\f12d",
+        "download-circular-button": "\f12e",
+        "youtube": "\f12f",
+        "like": "\f130",
+        "like-1": "\f131",
+        "maison": "\f132",
+        "user-2": "\f133",
+        "chat": "\f134",
+        "download": "\f135",
+);
+
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-messenger:before {
+    content: map-get($flaticon-map, "messenger");
+}
+.flaticon-worldwide:before {
+    content: map-get($flaticon-map, "worldwide");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-github:before {
+    content: map-get($flaticon-map, "github");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-behance:before {
+    content: map-get($flaticon-map, "behance");
+}
+.flaticon-network:before {
+    content: map-get($flaticon-map, "network");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon-map, "briefcase");
+}
+.flaticon-skills:before {
+    content: map-get($flaticon-map, "skills");
+}
+.flaticon-personal:before {
+    content: map-get($flaticon-map, "personal");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-cv:before {
+    content: map-get($flaticon-map, "cv");
+}
+.flaticon-resume:before {
+    content: map-get($flaticon-map, "resume");
+}
+.flaticon-progress:before {
+    content: map-get($flaticon-map, "progress");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-moon:before {
+    content: map-get($flaticon-map, "moon");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon-map, "sun");
+}
+.flaticon-telegram:before {
+    content: map-get($flaticon-map, "telegram");
+}
+.flaticon-notification:before {
+    content: map-get($flaticon-map, "notification");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-telegram-1:before {
+    content: map-get($flaticon-map, "telegram-1");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon-map, "instagram-1");
+}
+.flaticon-twitter-1:before {
+    content: map-get($flaticon-map, "twitter-1");
+}
+.flaticon-line:before {
+    content: map-get($flaticon-map, "line");
+}
+.flaticon-linkedin-1:before {
+    content: map-get($flaticon-map, "linkedin-1");
+}
+.flaticon-behance-1:before {
+    content: map-get($flaticon-map, "behance-1");
+}
+.flaticon-github-1:before {
+    content: map-get($flaticon-map, "github-1");
+}
+.flaticon-telegram-2:before {
+    content: map-get($flaticon-map, "telegram-2");
+}
+.flaticon-github-2:before {
+    content: map-get($flaticon-map, "github-2");
+}
+.flaticon-deal:before {
+    content: map-get($flaticon-map, "deal");
+}
+.flaticon-graduating-student:before {
+    content: map-get($flaticon-map, "graduating-student");
+}
+.flaticon-experience:before {
+    content: map-get($flaticon-map, "experience");
+}
+.flaticon-download-circular-button:before {
+    content: map-get($flaticon-map, "download-circular-button");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-like-1:before {
+    content: map-get($flaticon-map, "like-1");
+}
+.flaticon-maison:before {
+    content: map-get($flaticon-map, "maison");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon-map, "user-2");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-download:before {
+    content: map-get($flaticon-map, "download");
+}
