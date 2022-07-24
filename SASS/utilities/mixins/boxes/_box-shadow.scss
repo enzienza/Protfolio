@@ -1,0 +1,6 @@
+// main: ../_utilities.scss
+
+@mixin box-shadow($x) {
+    -webkit-box-shadow: ($x);
+    box-shadow: ($x);
+}

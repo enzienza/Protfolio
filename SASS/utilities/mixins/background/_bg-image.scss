@@ -1,0 +1,26 @@
+// main: ../_utilities.scss
+
+// effet paralax
+@mixin bg-paralax{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+// Image de Background
+@mixin bg-img($img_url) {
+    background: url($img_url);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// Effet Paralax sur Image de Background
+@mixin bg-img-paralax($img_url) {
+    background: url($img_url);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

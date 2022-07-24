@@ -1,0 +1,48 @@
+// this file is a list for fonts pairing
+
+// #01 | FONT PAIRING | MONTSERRAT SEMI BOLD (headings) + LORA REGULAR (body) -----
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
+// #02 | FONT PAIRING | OSWALD (headings) + MERRIWEATHER (body) -------------------
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+// #03 | FONT PAIRING | PLAYFAIR DISPLAY (headings) + SOURCE SANS PRO (body) ------
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+// #04 | FONT PAIRING | MERRIWEATHER  (headings) + LATO (body) --------------------
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+// #05 | FONT PAIRING | MERRIWEATHER (headings) + OPEN SANS (body) ----------------
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+// #06 | FONT PAIRING | ECZAR (headings) + SOURCE SANS PRO (body) -----------------
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+// #07 | FONT PAIRING | ROBOTO SLAB (headings) + ROBOTO (body) --------------------
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// #08 | FONT PAIRING | OSWALD (headings) + PLAYFAIR DISPLAY (body) ---------------
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+// #09 | FONT PAIRING | QUATTROCENTO (headings) + QUATTROCENTO SANS (body) --------
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+// #10 | FONT PAIRING | MERRIWEATHER (headings) + OPEN SANS (body) ----------------
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+// #11 | FONT PAIRING | ZILLA SLAB (headings) + LATO (body) -----------------------
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+// !!!!! Ajouter les autres pair (https://archetypeapp.com) il y en a 24 !!!!!

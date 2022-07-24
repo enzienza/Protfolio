@@ -1,0 +1,13 @@
+// main: ../_utilities.scss
+
+@mixin translateX($numb){
+    -webkit-transform: translateX($numb);
+    -ms-transform: translateX($numb);
+    transform: translateX($numb);
+}
+
+@mixin translateY($numb){
+    -webkit-transform: translateY($numb);
+    -ms-transform: translateY($numb);
+    transform: translateY($numb);
+}

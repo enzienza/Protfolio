@@ -1,0 +1,61 @@
+// main: ../_utilities.scss
+
+// -------------------------------------------------------------
+// GRIS
+@mixin grid{
+    display: -ms-grid;
+    display: grid
+}
+// -------------------------------------------------------------
+// $columns values should be delimited by a space
+@mixin grid-template-columns($columns) {
+    -ms-grid-columns: $columns;
+    grid-template-columns: $columns;
+}
+
+// $rows values should be delimited by a space
+@mixin grid-template-rows($rows) {
+    -ms-grid-rows: $rows;
+    grid-template-rows: $rows;
+}
+
+
+
+// -------------------------------------------------------------
+// Utilitaires pour contrôler la façon dont les éléments sont dimensionnés et placés sur les colonnes de la grille.
+// column
+@mixin grid-column($col-start, $col-end) {
+    -ms-grid-column: $col-start;
+    -ms-grid-column-span: $col-end - $col-start;
+    grid-column: #{$col-start} / #{$col-end};
+}
+@mixin grid-column-start($string){
+    -ms-grid-column: $string;
+    grid-column-start: $string;
+}
+@mixin grid-column-end($string){
+    -ms-grid-column-span: $string;
+    grid-column-end: $string;
+}
+
+// row
+@mixin grid-row($row-start, $row-end) {
+    -ms-grid-row: $row-start;
+    -ms-grid-row-span: $row-end - $row-start;
+    grid-row: #{$row-start} / #{$row-end};
+}
+@mixin grid-row-start($string){
+    -ms-grid-row: $string;
+    grid-row-start: $string;
+}
+@mixin grid-row-end($string){
+    -ms-grid-row-span: $string;
+    grid-row-end: $string;
+}
+// -------------------------------------------------------------
+// Utilitaires pour contrôler les gouttières entre les éléments de grille et de boîte flexible.
+@mixin column-gap($string){
+    -webkit-column-gap: $string;
+    -moz-column-gap: $string;
+    column-gap: $string;
+}

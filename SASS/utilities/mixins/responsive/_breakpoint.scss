@@ -1,0 +1,42 @@
+// main: ../_utilities.scss
+
+
+// ------------------------------------------------------------
+// BREAKPOINT - Responsive widths
+// ------------------------------------------------------------
+$XS:  320px;
+$S:   480px;
+$M:   768px;
+$L:   992px;
+$XL: 1200px;
+
+// ------------------------------------------------------------
+// BREAKPOINT - MIXIN
+// ------------------------------------------------------------
+@mixin responsive($breakpoint){
+    @if $breakpoint == XS {
+        @media only screen and (min-width: $XS) and (max-width: calc(#{$S} - 1px) ){
+            @content;
+        }
+    }
+    @if $breakpoint == SM{
+        @media only screen and (min-width: $S) and (max-width: calc(#{$M} - 1px)){
+            @content;
+        }
+    }
+    @if $breakpoint == MD{
+        @media only screen and (min-width: $M) and (max-width: calc(#{$L} - 1px)){
+            @content;
+        }
+    }
+    @if $breakpoint == LG{
+        @media only screen and (min-width: $L) and (max-width: calc(#{$XL} - 1px)){
+            @content;
+        }
+    }
+    @if $breakpoint == XL{
+        @media only screen and (min-width: $XL){
+            @content;
+        }
+    }
+}

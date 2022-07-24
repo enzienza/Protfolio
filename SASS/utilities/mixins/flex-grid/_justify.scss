@@ -1,0 +1,40 @@
+// main: ../_utilities.scss
+
+
+// JUSTIFY-CONTENT
+// - Utilitaires pour contrôler la façon dont les éléments flex et grid sont positionnés le long de l'axe principal d'un conteneur.
+// flex-start | flex-end | center | space-between | space-around
+@mixin justify-content($string){
+    @if $string == flex-start {
+        -webkit-box-pack:start;
+        -ms-flex-pack:start;
+    } @else if $string == flex-end {
+        -webkit-box-pack:end;
+        -ms-flex-pack:end;
+    } @else if $string == space-between {
+        -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+    } @else if $string == space-around {
+        -ms-flex-pack:distribute;
+    } @else {
+        // center
+        -webkit-box-pack:$string;
+        -ms-flex-pack:$string;
+    }
+    justify-content: $string;
+}
+
+// JUSTIFY-ITEMS
+// stretch | center | start | end | self-start | self-end | left | right
+@mixin justify-items($string){
+    // Pas de prefixer.
+}
+
+
+// JUSTIFY-SELF
+// - Utilitaires pour contrôler la façon dont un élément de grille individuel est aligné le long de son axe en ligne
+// auto  | stretch | center | start | end | self-start | self-end | left | right
+@mixin justify-self($string){
+    -ms-grid-column-align: $string;
+    justify-self: $string;
+}

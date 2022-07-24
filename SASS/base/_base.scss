@@ -1,1 +1,12 @@
 // main: ../style.scss
+
+// RESET ================================
+@import "reset/minireset";
+
+// GENERAL ==============================
+@import "general/general";
+
+// FONTS ================================
+@import "fonts/font-weight";
+@import "fonts/text-transform";
+@import "fonts/letter-spacing";

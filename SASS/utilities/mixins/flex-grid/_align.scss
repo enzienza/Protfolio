@@ -1,0 +1,66 @@
+// main: ../_utilities.scss
+
+
+// ALIGN-CONTENT
+// Utilitaires pour contrôler la façon dont les lignes sont positionnées dans des conteneurs flex et grid à plusieurs lignes.
+// flex-start | flex-end | center | space-between | space-around | stretch
+@mixin align-content($string) {
+    @if $string == flex-start {
+        -ms-flex-line-pack:start;
+    } @else if $string == flex-end {
+        -ms-flex-line-pack:end;
+    } @else if $string == space-between {
+        -ms-flex-line-pack:justify;
+    } @else if $string == space-around {
+        -ms-flex-line-pack:distribute;
+    } @else {
+        // center & stretch
+        -ms-flex-line-pack:$string;
+    }
+    align-content: $string;
+}
+
+
+
+// ALIGN-ITEMS
+// Utilitaires pour contrôler la façon dont les éléments flex et grid sont positionnés le long de l'axe transversal d'un conteneur.
+// flex-start | flex-end | center | baseline | stretch
+@mixin align-items($string) {
+    @if $string == flex-start {
+        -webkit-box-align:start;
+        -ms-flex-align:start;
+    } @else if $string == flex-end {
+        -webkit-box-align:end;
+        -ms-flex-align:end;
+    } @else {
+        // center - baseline - stretch
+        -webkit-box-align: $string;
+        -ms-flex-align: $string;
+    }
+    align-items: ($string);
+}
+
+
+// ALIGN-SELF
+// Utilitaires pour contrôler la façon dont un élément de flex ou de grille individuel est positionné le long de l'axe transversal de son conteneur.
+// auto | flex-start | flex-end | center | baseline | stretch
+@mixin align-self($string){
+    -ms-flex-item-align: $string;
+    -ms-grid-row-align: $string;
+    align-self: $string;
+}
+
+// Cross-axis Alignment
+// - applies to: flex items
+// auto | flex-start | flex-end | center | baseline | stretch
+@mixin align-self($string: auto) {
+    -webkit-align-self: $string;
+    @if $string == flex-start {
+        -ms-flex-item-align: start;
+    } @else if $string == flex-end {
+        -ms-flex-item-align: end;
+    } @else {
+        -ms-flex-item-align: $string;
+    }
+    align-self: $string;
+}
