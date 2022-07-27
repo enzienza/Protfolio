@@ -45,6 +45,7 @@ require_once ('inc/customize/custom-dashboard.php');
 /** =====================================================
  *  3 - OPTIONS-THEME
  */
+require_once ('inc/option-themes/API-index.php');
 
 
 /** =====================================================
