@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: 01-pesonalDetail
- * Description: this file allows to manage the detail personal
+ * Description: this file allows to manage the picture profile [Upload of media]
  *
  * @package WordPress
  * @subpackage MyPortfolio

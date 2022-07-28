@@ -14,3 +14,4 @@
  * group all profile files
  */
 require_once ('OP_profile/01-personalDetails.php');
+require_once ('OP_profile/02-media.php');
