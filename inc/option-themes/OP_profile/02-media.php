@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: 02-media
- * Description: this file allows to manage the
+ * Description: this file allows to manage the picture profile [Upload of media]
  *
  * @package WordPress
  * @subpackage MyPortfolio
