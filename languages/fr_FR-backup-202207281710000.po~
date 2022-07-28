@@ -3,11 +3,11 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-07-28 17:11+0000\n"
+"PO-Revision-Date: 2022-07-28 17:06+0000\n"
 "Last-Translator: \n"
-"Language-Team: English (UK)\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,30 +18,27 @@ msgstr ""
 #: inc/option-themes/OP_profile/02-media.php:128
 msgid "Ajouter les différentes photo de votre Portfolio"
 msgstr ""
-"Adding the different photos of your protfolio\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/02-media.php:109
 msgid "Ajouter les medias"
 msgstr ""
-"Add media\n"
 
 #: inc/option-themes/OP_profile/02-media.php:199
 #: inc/option-themes/OP_profile/02-media.php:216
 #: inc/option-themes/OP_profile/02-media.php:233
 msgid "aperçu :"
 msgstr ""
-"overview :\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
 msgid "Date de naissance"
-msgstr "Date of birth"
+msgstr "Date de naissance"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:105
 msgid "Détails personnels"
-msgstr "Personal details"
+msgstr "Détails personnels"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:157
@@ -58,30 +55,27 @@ msgstr "http://www.enzalombardo.be"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:291
 msgid "La localité"
-msgstr ""
-"The location\n"
+msgstr "La localité"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:150
 msgid "Localité"
-msgstr "Location"
+msgstr "Localité"
 
 #: inc/option-themes/OP_profile/02-media.php:214
 #: inc/option-themes/OP_profile/02-media.php:218
 msgid "Ma photo d'avatar"
 msgstr ""
-"My avatar photo\n"
 
 #: inc/option-themes/OP_profile/02-media.php:197
 #: inc/option-themes/OP_profile/02-media.php:201
 msgid "Ma photo de profile"
 msgstr ""
-"My profile picture\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:142
 msgid "Mes coordonnés"
-msgstr "My details"
+msgstr "Mes coordonnés"
 
 #. slug parent
 #. page_title
@@ -90,30 +84,27 @@ msgstr "My details"
 #: inc/option-themes/OP_profile/02-media.php:69
 msgid "Mes médias"
 msgstr ""
-"My media\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/02-media.php:101
 msgid "Mes photos"
 msgstr ""
-"My photos\n"
 
 #: inc/option-themes/OP_profile/02-media.php:231
 #: inc/option-themes/OP_profile/02-media.php:235
 msgid "Mon logo"
 msgstr ""
-"My logo\n"
 
 #. TITLE_PAGE
 #: inc/option-themes/OP_profile/01-personalDetails.php:57
 #: inc/option-themes/OP_profile/01-personalDetails.php:58
 #: inc/option-themes/OP_profile/01-personalDetails.php:73
 msgid "Mon profile"
-msgstr "My profile"
+msgstr "Mon profile"
 
 #. Description of the theme
 msgid "My Portfolio online"
-msgstr "My Portfolio online"
+msgstr "Mon portfolio en ligne"
 
 #. Name of the theme
 msgid "MyPortfolio"
@@ -121,72 +112,61 @@ msgstr "MyPortfolio"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:258
 msgid "Nom"
-msgstr ""
-"Name\n"
+msgstr "Nom"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:113
 msgid "Nom complet"
-msgstr ""
-"Full name\n"
+msgstr "Nom complet"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:187
 msgid "Poste"
-msgstr ""
-"Position / Job\n"
+msgstr "Poste"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:265
 msgid "Prénom"
-msgstr "First name"
+msgstr "Prénom"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:223
 msgid "Section dédiée aux informations de contact"
-msgstr ""
-"Section dedicated to contact information\n"
+msgstr "Section dédiée aux informations de contact"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:214
 msgid "Section dédiée aux informations personnels"
-msgstr ""
-"Section dedicated to personal information\n"
+msgstr "Section dédiée aux informations personnelles"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:232
 msgid "Section dédiée à la traduction du post"
-msgstr ""
-"Section dedicated to the translation of the position\n"
+msgstr "Section dédiée à la traduction du poste"
 
 #: inc/option-themes/OP_profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents média de votre portfolio"
-msgstr "On this page you can manage the different media in your portfolio"
+msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"
-msgstr "On this page you can manage your personal information"
+msgstr "Sur cette page vous pouvez gérer vos informations personnelles"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:195
 msgid "Titre du job"
-msgstr ""
-"Job title\n"
+msgstr "Titre du job"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:352
 msgid "Titre du poste en anglais"
-msgstr ""
-"Job title in English\n"
+msgstr "Titre du poste en anglais"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:340
 msgid "Titre du poste en français"
-msgstr ""
-"Job title in French\n"
+msgstr "Titre du poste en français"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:364
 msgid "Titre du poste en italien"
-msgstr ""
-"Job title in Italian\n"
+msgstr "Titre du poste en italien"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:164
 msgid "Téléphone"
-msgstr ""
-"Phone\n"
+msgstr "Téléphone"

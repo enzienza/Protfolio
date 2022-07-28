@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-07-28 17:11+0000\n"
+"PO-Revision-Date: 2022-07-28 17:02+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -18,20 +18,17 @@ msgstr ""
 #: inc/option-themes/OP_profile/02-media.php:128
 msgid "Ajouter les différentes photo de votre Portfolio"
 msgstr ""
-"Adding the different photos of your protfolio\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/02-media.php:109
 msgid "Ajouter les medias"
 msgstr ""
-"Add media\n"
 
 #: inc/option-themes/OP_profile/02-media.php:199
 #: inc/option-themes/OP_profile/02-media.php:216
 #: inc/option-themes/OP_profile/02-media.php:233
 msgid "aperçu :"
 msgstr ""
-"overview :\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
@@ -66,17 +63,21 @@ msgstr ""
 msgid "Localité"
 msgstr "Location"
 
-#: inc/option-themes/OP_profile/02-media.php:214
 #: inc/option-themes/OP_profile/02-media.php:218
 msgid "Ma photo d'avatar"
 msgstr ""
-"My avatar photo\n"
 
-#: inc/option-themes/OP_profile/02-media.php:197
 #: inc/option-themes/OP_profile/02-media.php:201
 msgid "Ma photo de profile"
 msgstr ""
-"My profile picture\n"
+
+#: inc/option-themes/OP_profile/02-media.php:214
+msgid "Ma photot d'avatar"
+msgstr ""
+
+#: inc/option-themes/OP_profile/02-media.php:197
+msgid "Ma photot de profile"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:142
@@ -90,19 +91,16 @@ msgstr "My details"
 #: inc/option-themes/OP_profile/02-media.php:69
 msgid "Mes médias"
 msgstr ""
-"My media\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/02-media.php:101
 msgid "Mes photos"
 msgstr ""
-"My photos\n"
 
 #: inc/option-themes/OP_profile/02-media.php:231
 #: inc/option-themes/OP_profile/02-media.php:235
 msgid "Mon logo"
 msgstr ""
-"My logo\n"
 
 #. TITLE_PAGE
 #: inc/option-themes/OP_profile/01-personalDetails.php:57
@@ -158,7 +156,7 @@ msgstr ""
 #: inc/option-themes/OP_profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents média de votre portfolio"
-msgstr "On this page you can manage the different media in your portfolio"
+msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"

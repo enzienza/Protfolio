@@ -194,7 +194,7 @@ class myprofil_medias{
         ?>
         <div class="grid-cols-3">
             <div class="item-picture-cv">
-                <p class="picture-cv-title"><?php _e("Ma photot de profile", "MyPortfolio") ?></p>
+                <p class="picture-cv-title"><?php _e("Ma photo de profile", "MyPortfolio") ?></p>
                 <div class="picture-cv-preview">
                     <p><?php _e("aperçu :", "MyPortfolio" )?></p>
                     <img src="<?php echo get_option("myprofil") ?>"
@@ -211,7 +211,7 @@ class myprofil_medias{
                 </div>
             </div><!--./item-picture-cv-->
             <div class="item-picture-cv">
-                <p class="picture-cv-title"><?php _e("Ma photot d'avatar", "MyPortfolio") ?></p>
+                <p class="picture-cv-title"><?php _e("Ma photo d'avatar", "MyPortfolio") ?></p>
                 <div class="picture-cv-preview">
                     <p><?php _e("aperçu :", "MyPortfolio" )?></p>
                     <img src="<?php echo get_option("myavatar") ?>"

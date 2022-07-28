@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 14:26+0000\n"
+"POT-Creation-Date: 2022-07-28 17:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,6 +15,21 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.1\n"
 "X-Domain: MyPortfolio"
+
+#: inc/option-themes/OP_profile/02-media.php:128
+msgid "Ajouter les différentes photo de votre Portfolio"
+msgstr ""
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/02-media.php:109
+msgid "Ajouter les medias"
+msgstr ""
+
+#: inc/option-themes/OP_profile/02-media.php:199
+#: inc/option-themes/OP_profile/02-media.php:216
+#: inc/option-themes/OP_profile/02-media.php:233
+msgid "aperçu :"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
@@ -48,9 +63,37 @@ msgstr ""
 msgid "Localité"
 msgstr ""
 
+#: inc/option-themes/OP_profile/02-media.php:214
+#: inc/option-themes/OP_profile/02-media.php:218
+msgid "Ma photo d'avatar"
+msgstr ""
+
+#: inc/option-themes/OP_profile/02-media.php:197
+#: inc/option-themes/OP_profile/02-media.php:201
+msgid "Ma photo de profile"
+msgstr ""
+
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:142
 msgid "Mes coordonnés"
+msgstr ""
+
+#. slug parent
+#. page_title
+#: inc/option-themes/OP_profile/02-media.php:55
+#: inc/option-themes/OP_profile/02-media.php:56
+#: inc/option-themes/OP_profile/02-media.php:69
+msgid "Mes médias"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/02-media.php:101
+msgid "Mes photos"
+msgstr ""
+
+#: inc/option-themes/OP_profile/02-media.php:231
+#: inc/option-themes/OP_profile/02-media.php:235
+msgid "Mon logo"
 msgstr ""
 
 #. TITLE_PAGE
@@ -96,6 +139,11 @@ msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:232
 msgid "Section dédiée à la traduction du post"
+msgstr ""
+
+#: inc/option-themes/OP_profile/02-media.php:71
+msgid ""
+"Sur cette page vous pouvez gérer les différents média de votre portfolio"
 msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:75
