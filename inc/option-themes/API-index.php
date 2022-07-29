@@ -17,3 +17,4 @@ require_once ('OP_profile/01-personalDetails.php');
 require_once ('OP_profile/02-media.php');
 require_once ('OP_profile/03-network.php');
 require_once ('OP_profile/04-aboutme.php');
+require_once ('OP_profile/05-curriculum.php');
