@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-07-28 21:15+0000\n"
+"PO-Revision-Date: 2022-07-29 13:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -49,6 +49,19 @@ msgstr "Behance"
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr "Check and add the URL of your social networks"
 
+#. slug parent
+#. page_title
+#: inc/option-themes/OP_profile/05-curriculum.php:56
+#: inc/option-themes/OP_profile/05-curriculum.php:57
+msgid "Curriculum"
+msgstr ""
+"Curriculum\n"
+
+#: inc/option-themes/OP_profile/05-curriculum.php:70
+msgid "Curriculum Vitae"
+msgstr ""
+"Curriculum Vitae\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
 msgid "Date de naissance"
@@ -73,16 +86,19 @@ msgstr "Enza Lombardo"
 msgid "Facebook"
 msgstr "Facebook"
 
+#: inc/option-themes/OP_profile/05-curriculum.php:189
 #: inc/option-themes/OP_profile/04-aboutme.php:216
 msgid "Gestion de la section en anglais"
 msgstr ""
 "Management of the English section\n"
 
+#: inc/option-themes/OP_profile/05-curriculum.php:181
 #: inc/option-themes/OP_profile/04-aboutme.php:208
 msgid "Gestion de la section en français"
 msgstr ""
 "Management of the French section\n"
 
+#: inc/option-themes/OP_profile/05-curriculum.php:197
 #: inc/option-themes/OP_profile/04-aboutme.php:224
 msgid "Gestion de la section en italien"
 msgstr ""
@@ -96,6 +112,14 @@ msgstr "GitHub"
 #. Author URI of the theme
 msgid "http://www.enzalombardo.be"
 msgstr "http://www.enzalombardo.be"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/05-curriculum.php:110
+#: inc/option-themes/OP_profile/05-curriculum.php:137
+#: inc/option-themes/OP_profile/05-curriculum.php:164
+msgid "Importer mon CV"
+msgstr ""
+"Import my CV\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:125
@@ -252,6 +276,24 @@ msgid "Section dédiée à la traduction du post"
 msgstr ""
 "Section dedicated to the translation of the position\n"
 
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/05-curriculum.php:129
+msgid "Section en anglais"
+msgstr ""
+"English section\n"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/05-curriculum.php:102
+msgid "Section en français"
+msgstr ""
+"French section\n"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/05-curriculum.php:156
+msgid "Section en italien"
+msgstr ""
+"Italian section\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:157
 msgid "Site Web"
@@ -269,6 +311,10 @@ msgstr "On this page you can manage the URLs of your social networks"
 #: inc/option-themes/OP_profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"
 msgstr "On this page you can manage your personal information"
+
+#: inc/option-themes/OP_profile/05-curriculum.php:72
+msgid "Sur cette page, vous pouvez gérer l'import de votre CV"
+msgstr "On this page you can manage the import of your CV"
 
 #: inc/option-themes/OP_profile/04-aboutme.php:73
 msgid "Sur cette page, vous pouvez parler de vous"

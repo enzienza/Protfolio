@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-07-28 17:11+0000\n"
+"PO-Revision-Date: 2022-07-28 21:15+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -14,6 +14,13 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.1\n"
 "X-Domain: MyPortfolio"
+
+#. slug parent
+#. page_title
+#: inc/option-themes/OP_profile/04-aboutme.php:57
+#: inc/option-themes/OP_profile/04-aboutme.php:58
+msgid "About me"
+msgstr "About me"
 
 #: inc/option-themes/OP_profile/02-media.php:128
 msgid "Ajouter les différentes photo de votre Portfolio"
@@ -34,6 +41,15 @@ msgstr ""
 "overview :\n"
 
 #. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:141
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/option-themes/OP_profile/03-network.php:187
+msgid "Cocher et ajouter l'url de vos réseaux sociaux"
+msgstr "Check and add the URL of your social networks"
+
+#. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
 msgid "Date de naissance"
 msgstr "Date of birth"
@@ -52,14 +68,49 @@ msgstr "Email"
 msgid "Enza Lombardo"
 msgstr "Enza Lombardo"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:109
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/option-themes/OP_profile/04-aboutme.php:216
+msgid "Gestion de la section en anglais"
+msgstr ""
+"Management of the English section\n"
+
+#: inc/option-themes/OP_profile/04-aboutme.php:208
+msgid "Gestion de la section en français"
+msgstr ""
+"Management of the French section\n"
+
+#: inc/option-themes/OP_profile/04-aboutme.php:224
+msgid "Gestion de la section en italien"
+msgstr ""
+"Management of the Italian section\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:149
+msgid "GitHub"
+msgstr "GitHub"
+
 #. Author URI of the theme
 msgid "http://www.enzalombardo.be"
 msgstr "http://www.enzalombardo.be"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:125
+msgid "Instagram"
+msgstr "Instagram"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:291
 msgid "La localité"
 msgstr ""
 "The location\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:133
+msgid "LinkedIn"
+msgstr "LinkedIn"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:150
@@ -98,6 +149,19 @@ msgid "Mes photos"
 msgstr ""
 "My photos\n"
 
+#. slug parent
+#. page_title
+#: inc/option-themes/OP_profile/03-network.php:55
+#: inc/option-themes/OP_profile/03-network.php:56
+msgid "Mes réseaux"
+msgstr "My networks"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/03-network.php:69
+#: inc/option-themes/OP_profile/03-network.php:101
+msgid "Mes réseaux sociaux"
+msgstr "My social networks"
+
 #: inc/option-themes/OP_profile/02-media.php:231
 #: inc/option-themes/OP_profile/02-media.php:235
 msgid "Mon logo"
@@ -130,6 +194,21 @@ msgid "Nom complet"
 msgstr ""
 "Full name\n"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/04-aboutme.php:118
+#: inc/option-themes/OP_profile/04-aboutme.php:154
+#: inc/option-themes/OP_profile/04-aboutme.php:190
+msgid "Parler de sois"
+msgstr "Talk about yourself"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/04-aboutme.php:111
+#: inc/option-themes/OP_profile/04-aboutme.php:147
+#: inc/option-themes/OP_profile/04-aboutme.php:183
+msgid "Petit intro"
+msgstr ""
+"Short introduction\n"
+
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:187
 msgid "Poste"
@@ -139,6 +218,24 @@ msgstr ""
 #: inc/option-themes/OP_profile/01-personalDetails.php:265
 msgid "Prénom"
 msgstr "First name"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/04-aboutme.php:139
+msgid "Qui suis-je ? (en anglais)"
+msgstr ""
+"Who am I (in English)\n"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/04-aboutme.php:103
+msgid "Qui suis-je ? (en français)"
+msgstr ""
+"Who am I (in French)\n"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_profile/04-aboutme.php:175
+msgid "Qui suis-je ? (en italien)"
+msgstr ""
+"Who am I (in Italian)\n"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:223
 msgid "Section dédiée aux informations de contact"
@@ -155,14 +252,27 @@ msgid "Section dédiée à la traduction du post"
 msgstr ""
 "Section dedicated to the translation of the position\n"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:157
+msgid "Site Web"
+msgstr "Website"
+
 #: inc/option-themes/OP_profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents média de votre portfolio"
 msgstr "On this page you can manage the different media in your portfolio"
 
+#: inc/option-themes/OP_profile/03-network.php:71
+msgid "Sur cette page vous pouvez gérer les url de vos réseaux sociaux"
+msgstr "On this page you can manage the URLs of your social networks"
+
 #: inc/option-themes/OP_profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"
 msgstr "On this page you can manage your personal information"
+
+#: inc/option-themes/OP_profile/04-aboutme.php:73
+msgid "Sur cette page, vous pouvez parler de vous"
+msgstr "On this page you can talk about yourself"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:195
@@ -186,7 +296,16 @@ msgstr ""
 "Job title in Italian\n"
 
 #. SLUG_FIELD
+#: inc/option-themes/OP_profile/03-network.php:117
+msgid "Twitter"
+msgstr "Twitter"
+
+#. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:164
 msgid "Téléphone"
 msgstr ""
 "Phone\n"
+
+#: inc/option-themes/OP_profile/04-aboutme.php:71
+msgid "À propos de moi"
+msgstr "About me"
