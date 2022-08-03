@@ -1,0 +1,36 @@
+// main: ../_elements.scss
+
+.grid{
+    display: -ms-grid;
+    display: grid
+}
+
+.grid-cols-2{
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3{
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-cols-4{
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .grid-cols-2, .grid-cols-3, .grid-cols-4{
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+@include responsive(XS){
+    .grid-cols-2, .grid-cols-3, .grid-cols-4{
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}

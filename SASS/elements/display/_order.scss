@@ -1,0 +1,16 @@
+// main: ../_elements.scss
+
+.order{
+    &-first{
+        order:1;
+    }
+    &-last{
+        order: 9999;
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){}
+@include responsive(XS){}

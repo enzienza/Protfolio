@@ -1,0 +1,17 @@
+// main: ../_components.scss
+
+.nav-lang {
+    margin-bottom: 0;
+    @include flex;
+    @include flex-flow(row nowrap);
+    @include justify-content(flex-end);
+    @include align-items(center);
+
+    @include landscape(SM){
+        @include flex-direction(column);
+    }
+
+    @include landscape(XS){
+        @include flex-direction(column);
+    }
+}

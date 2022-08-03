@@ -1,0 +1,35 @@
+// main: ../_elements.scss
+
+// picture profil in sidebar
+.profil{
+    border-radius: 100%;
+    @include object-fit(cover);
+    height: 11rem;
+    width: 11rem;
+    margin-bottom: 1.5rem;
+    border: 0.5rem solid $color-primary-dark;
+
+    @include responsive(XL){
+        height: 13rem;
+        width: 13rem;
+        border: 0.5rem solid $color-primary-dark;
+    }
+
+    @include responsive(MD){}
+    @include responsive(SM){
+        width: 10rem;
+        height: 10rem;
+        margin-top: 1rem;
+    }
+    @include responsive(XS){
+        width: 10rem;
+        height: 10rem;
+        margin-top: 1rem;
+    }
+}
+
+.invert{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    border: none;
+}

@@ -28,9 +28,6 @@
 </head>
 <body <?php body_class(); ?>>
 
-<!-- Provisoir -->
-
-
 <header class="sidebar">
     <!--  Nav-lang  -->
     <?php get_template_part('template-parts/navigation/lang'); ?>
