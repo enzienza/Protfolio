@@ -258,11 +258,11 @@ class mycustome_core{
         <ul class="elem-group">
             <li class="elem-item">
                 <input type="radio" name="sidebar_choose_picture" value="1" <?php checked(1, $sidebar_choose_picture, true); ?>  />
-                <label for=""><?php _e("Avatar", "MyPortfolio"); ?></label>
+                <label for=""><?php _e("Profil", "MyPortfolio"); ?></label>
             </li>
             <li class="elem-item">
                 <input type="radio" name="sidebar_choose_picture" value="2" <?php checked(2, $sidebar_choose_picture, true); ?>  />
-                <label for=""><?php _e("Profil", "MyPortfolio"); ?></label>
+                <label for=""><?php _e("Avatar", "MyPortfolio"); ?></label>
             </li>
             <li class="elem-item">
                 <input type="radio" name="sidebar_choose_picture" value="3" <?php checked(3, $sidebar_choose_picture, true); ?>  />
