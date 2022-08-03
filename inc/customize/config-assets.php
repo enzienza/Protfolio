@@ -86,13 +86,13 @@ if(!function_exists('myportfolio_register_assets')) {
          * @dependence ['jquery']
          * @version 1.4.1
          */
-//        wp_register_script(
-//            'jquery-cookie',
-//            'https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js',
-//            ['jquery'],
-//            '1.4.1', true
-//        );
-//        wp_enqueue_script('jquery-cookie');
+        wp_register_script(
+            'jquery-cookie',
+            'https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js',
+            ['jquery'],
+            '1.4.1', true
+        );
+        wp_enqueue_script('jquery-cookie');
 
 
         // SCRIPT CUSTOM  ....................................................
@@ -104,12 +104,12 @@ if(!function_exists('myportfolio_register_assets')) {
          * @dependence ['jquery-cookie','jquery']
          * @version 1.0
          */
-//        wp_enqueue_script(
-//            'switch-mode',
-//            get_template_directory_uri().'/assets/js/switch-mode.js',
-//            ['jquery-cookie','jquery'],
-//            '1.0', true
-//        );
+        wp_enqueue_script(
+            'switch-mode',
+            get_template_directory_uri().'/assets/js/switch-mode.js',
+            ['jquery-cookie','jquery'],
+            '1.0', true
+        );
 
         /**
          * BTN-MENU
@@ -117,12 +117,12 @@ if(!function_exists('myportfolio_register_assets')) {
          * @description Pour le responsive, permet d'afficher le menu + animation du BTN
          * @version 1.0
          */
-//        wp_enqueue_script(
-//            'btn-menu',
-//            get_template_directory_uri().'/assets/js/btn-menu.js',
-//            [],
-//            '1.0', true
-//        );
+        wp_enqueue_script(
+            'btn-menu',
+            get_template_directory_uri().'/assets/js/btn-menu.js',
+            [],
+            '1.0', true
+        );
 
         /**
          * ANCESTOR_MENU
@@ -130,12 +130,12 @@ if(!function_exists('myportfolio_register_assets')) {
          * @description Permet d'ajouter la classe "current-menu-ancestor" de WordPress
          * @version 1.0
          */
-//        wp_enqueue_script(
-//            'ancestor_menu',
-//            get_template_directory_uri().'/assets/js/ancestor_menu.js',
-//            [],
-//            '1.0', true
-//        );
+        wp_enqueue_script(
+            'ancestor_menu',
+            get_template_directory_uri().'/assets/js/ancestor-menu.js',
+            [],
+            '1.0', true
+        );
 
         /**
          * SCROLLTOP
@@ -143,12 +143,12 @@ if(!function_exists('myportfolio_register_assets')) {
          * @description Permet de remonté la page
          * @version 1.0
          */
-//        wp_enqueue_script(
-//            'scrollTop',
-//            get_template_directory_uri().'/assets/js/scrollTop.js',
-//            [],
-//            '1.0', true
-//        );
+        wp_enqueue_script(
+            'scrollTop',
+            get_template_directory_uri().'/assets/js/scrollTop.js',
+            [],
+            '1.0', true
+        );
 
         /**
          * SCROLL-SHOW

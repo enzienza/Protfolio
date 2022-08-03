@@ -1,0 +1,90 @@
+// main: ../_layout.scss
+
+section{
+    padding: 1rem;
+    min-height: 90vh;
+    //@include flex;
+    //@include flex-flow(column nowrap);
+    //@include justify-content(center);
+
+    &:nth-child(even){
+        background-color: rgba(0,0,0,.03);
+    }
+}
+
+#home, #about {
+    min-height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.title-section{
+    text-align: center;
+    text-transform: capitalize;
+    //border-bottom: 2px solid $color-primary-dark;
+    margin-bottom: 3rem;
+    padding-bottom: 1em;
+    padding-top: 1rem;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid $color-primary-dark;
+        width: 80px;
+        bottom: 8px;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        display: table;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        border-bottom: 2px solid $color-primary-dark;
+        width: 40px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+.desc-section{
+    text-align: justify;
+}
+
+.no-result{
+    text-align: center;
+    line-height: 2;
+    min-height: 50vh;
+    @include flex;
+    @include flex-flow(column wrap);
+    @include justify-content(center);
+
+    &-msg{
+        font-size: large;
+    }
+}
+
+@include responsive(XL){
+    .desc-section{
+        text-align: center;
+    }
+
+    .contact-social{
+        margin-top: calc(2em + 1vmin);
+    }
+}
+@include responsive(LG){
+    .desc-section{
+        text-align: center;
+    }
+
+    .contact-social{
+        margin-top: calc(2em + 1vmin);
+    }
+}
+@include responsive(MD){}
+@include responsive(SM){}
+@include responsive(XS){}

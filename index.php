@@ -10,5 +10,18 @@
 ?>
 
 <?php get_header(); ?>
-this is main page
+
+<?php get_template_part('template-parts/components/switch-mode') ?>
+    <div id="home" class="my-container" style="height: 100vh">
+        <h1>Home section</h1>
+    </div>
+    <div id="about" class="my-container" style="height: 100vh">
+        <h1>About section</h1>
+    </div>
+    <div id="portfolio" class="my-container" style="height: 100vh">
+        <h1>Portfolio section</h1>
+    </div>
+    <div id="contact" class="my-container" style="height: 100vh">
+        <h1>Contact section</h1>
+    </div>
 <?php get_footer(); ?>

@@ -1,0 +1,22 @@
+// main: ../_components.scss
+
+.scrollTop{
+    background: rgba(0,0,0 ,0.2);
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 999;
+    display: none;
+    //opacity: 0;
+
+
+    .flaticon-up-arrow{
+        @include flex-row-center;
+        height: calc(100% - 10%);
+        font-size: 1.5rem;
+        color: $color-light;
+    }
+}

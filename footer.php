@@ -9,6 +9,7 @@
  */
 ?>
 
+<?php get_template_part('template-parts/components/scrollTop') ?>
 
 <footer class="footer">
     <small class="">

@@ -1,0 +1,78 @@
+// main: ../_components.scss
+
+// switcher
+.switcher-mode{
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 900;
+}
+
+// checkbox [element input]
+.checkbox {
+    opacity: 0;
+    position: absolute;
+
+    &:checked + .label .ball {
+        transform: translateX(24px);
+    }
+}
+
+.label {
+    background: lighten($color-dark, 10%);
+    position: relative;
+    border-radius: 50px;
+    height: 30px;
+    width: 55px;
+    @include flex;
+    @include align-items(center);
+    @include justify-content(space-between);
+    cursor: pointer;
+    margin: 0 7px;
+    //transform: scale(1.5);
+
+    .ball {
+        background: $color-light;
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        left: 5px;
+        right: 5px;
+        transform: translateX(0px);
+        transition: all .2s ease;
+        box-shadow: 0 2px 15px rgba(0,0,0,.15);
+    }
+    .icons{
+        @include flex;
+    }
+}
+
+.flaticon{
+    &-moon{
+        position: absolute;
+        right: 5px;
+        color: $color-light;
+    }
+    &-sun{
+        position: absolute;
+        left: 5px;
+        color: $color-light;
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .switcher-mode{
+        top: 1.5rem;
+        right: 1rem;
+    }
+}
+@include responsive(XS){
+    .switcher-mode{
+        top: 1.5rem;
+        right: 1rem;
+    }
+}
