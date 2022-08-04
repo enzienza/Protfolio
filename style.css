@@ -1099,9 +1099,15 @@ header {
   padding: 0; }
 
 @media only screen and (min-width: 480px) and (max-width: calc(768px - 1px)) {
+  .footer .flex-between {
+    line-height: 1.5; }
+
   .legal-list {
     justify-content: center; } }
 @media only screen and (min-width: 320px) and (max-width: calc(480px - 1px)) {
+  .footer .flex-between {
+    line-height: 1.5; }
+
   .legal-list {
     justify-content: center; } }
 section {

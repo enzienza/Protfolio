@@ -1,7 +1,7 @@
 <?php
 /**
- * Name file: 01-pesonalDetail
- * Description: this file allows to manage the detail personal
+ * Name file: 01-customtheme
+ * Description: this file is an index of the different links that allows you to manage the theme
  *
  * @package WordPress
  * @subpackage MyPortfolio
@@ -82,14 +82,14 @@ class myportfolio_mycustome{
             <!-- start tr -->
             <tr class="importer-item">
                 <td class="import-system">
-                    <span class="importer-title"><?php _e('Header', "MyPortfolio")?></span>
+                    <span class="importer-title"><?php _e('Core', "MyPortfolio")?></span>
                     <span class="importer-action">
-                      <a href="?page=" class="install-now"><?php _e("Gérer la section", "MyPortfolio"); ?></a>
+                      <a href="?page=mycustome_core" class="install-now"><?php _e("Gérer la section", "MyPortfolio"); ?></a>
                     </span>
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer l'affichage de l'header", "MyPortfolio"); ?>
+                      <?php _e("Lien pour gérer l'affichage de l'header et du footer", "MyPortfolio"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->
@@ -104,7 +104,7 @@ class myportfolio_mycustome{
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer l'affichage de l'home", "MyPortfolio"); ?>
+                      <?php _e("Lien pour gérer la section de l'home", "MyPortfolio"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->
@@ -119,7 +119,7 @@ class myportfolio_mycustome{
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer l'affichage de l'about", "MyPortfolio"); ?>
+                      <?php _e("Lien pour gérer la section l'about", "MyPortfolio"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->
@@ -134,7 +134,22 @@ class myportfolio_mycustome{
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer l'affichage de le portfolio", "MyPortfolio"); ?>
+                      <?php _e("Lien pour gérer la section portfolio", "MyPortfolio"); ?>
+                    </span>
+                </td>
+            </tr><!-- end tr -->
+
+            <!-- start tr -->
+            <tr class="importer-item">
+                <td class="import-system">
+                    <span class="importer-title"><?php _e('Contact', "MyPortfolio")?></span>
+                    <span class="importer-action">
+                      <a href="?page=" class="install-now"><?php _e("Gérer la section", "MyPortfolio"); ?></a>
+                    </span>
+                </td>
+                <td class="desc">
+                    <span class="importer-desc">
+                      <?php _e("Lien pour gérer la section contact", "MyPortfolio"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->

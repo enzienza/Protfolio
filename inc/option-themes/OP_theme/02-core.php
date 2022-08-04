@@ -1,7 +1,7 @@
 <?php
 /**
- * Name file: 01-pesonalDetail
- * Description: this file allows to manage the detail personal
+ * Name file: 02-core
+ * Description: this file allows to manage display of the header and the footer
  *
  * @package WordPress
  * @subpackage MyPortfolio

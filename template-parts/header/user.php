@@ -14,17 +14,17 @@
     <?php if(checked(1, get_option('sidebar_user_picture'), false)) : ?>
         <?php if(checked(1, get_option('sidebar_choose_picture'), false)) : ?>
             <img src="<?php echo esc_attr(get_option('myprofil')); ?>"
-                 alt="<?php echo esc_attr(get_option('sidebar_user_lastname')); ?> <?php echo esc_attr(get_option('sidebar_user_firstname')); ?>"
+                 alt="<?php echo esc_attr(get_option('myfirstname')); ?> <?php echo esc_attr(get_option('mylastname')); ?>"
                  class="profil rounded-full"
             />
         <?php elseif (checked(2, get_option('sidebar_choose_picture'), false)) : ?>
             <img src="<?php echo esc_attr(get_option('myavatar')); ?>"
-                 alt="<?php echo esc_attr(get_option('sidebar_user_lastname')); ?> <?php echo esc_attr(get_option('sidebar_user_firstname')); ?>"
+                 alt="<?php echo esc_attr(get_option('myfirstname')); ?> <?php echo esc_attr(get_option('mylastname')); ?>"
                  class="profil rounded-full"
             />
         <?php elseif (checked(3, get_option('sidebar_choose_picture'), false)) : ?>
             <img src="<?php echo esc_attr(get_option('mylogo')); ?>"
-                 alt="<?php echo esc_attr(get_option('sidebar_user_lastname')); ?> <?php echo esc_attr(get_option('sidebar_user_firstname')); ?>"
+                 alt="<?php echo esc_attr(get_option('myfirstname')); ?> <?php echo esc_attr(get_option('mylastname')); ?>"
                  class="profil rounded-full"
             />
         <?php endif; ?>
@@ -32,11 +32,11 @@
 
     <!--  Name  -->
     <h1 class="name font-bold tracking-4">
-        <?php if(checked(1, get_option('sidebar_user_lastname'), false)): ?>
-            <?php echo esc_attr(get_option('mylastname')); ?>
-        <?php endif; ?>
         <?php if(checked(1, get_option('sidebar_user_firstname'), false)): ?>
             <?php echo esc_attr(get_option('myfirstname')); ?>
+        <?php endif; ?>
+        <?php if(checked(1, get_option('sidebar_user_lastname'), false)): ?>
+            <span class="uppercase"><?php echo esc_attr(get_option('mylastname')); ?></span>
         <?php endif; ?>
     </h1>
 
