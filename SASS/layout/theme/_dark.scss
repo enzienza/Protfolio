@@ -1,0 +1,123 @@
+// main: ../_layout.scss
+
+body.dark{
+    background: $color-night;
+    color: $color-light;
+
+    // NAVIGATION
+    .navbar-nav .nav-item:hover,
+    .navbar-nav .current-menu-item,
+    .navbar-nav .current_page_item,
+    .btn-menu{
+        background: $color-primary;
+    }
+
+    // NETWORK
+    .network{
+        &-list::before, &-list::after{
+            background: rgba($color-light, .3);
+        }
+        &-item{
+            color: rgba($color-light, .4);
+            text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+            &:hover{
+                color: $color-primary-light;
+            }
+        }
+    }
+
+    // FOOTER
+    .footer{
+        color: rgba($color-light, .5);
+        a{
+            color: #5e5e5e;
+            text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+            &:hover{
+                color: $color-primary-light;
+            }
+        }
+    }
+
+
+    // PROFIL
+    .profil, .morph, .title-section{
+        border-color: $color-primary;
+    }
+
+    // GENERAL
+    .detail-title{
+        color: $color-primary;
+        text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+    }
+
+    .error-code{
+        text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+    }
+
+    .title-section{
+        &::before, &::after{
+            border-color: $color-primary;
+        }
+    }
+
+    // BUTTON
+    .btn{
+        &-outline-primary{
+            //text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+            -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        &-outline-simple{
+            //text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+            -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-color: rgba($color-light, .5);
+            color: rgba($color-light, .5);
+        }
+    }
+
+    // TABS
+    .nav-tabs {
+        .nav-link {
+            color: rgba($color-light, .4);
+        }
+
+        .nav-link.active,
+        .nav-item.show, .nav-link:hover,
+        .nav-link:focus, .nav-link:focus-visible {
+            color: $color-light;
+            border-color: rgba($color-light, .6);
+            @include box-shadow(0 0 10px rgba(255, 255, 255, .3));
+        }
+    }
+
+    // Form
+    #my-form{
+        .frm_form_field{
+            label{
+                color: $color-light;
+                text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea{
+                background-color: #252A2E;
+                border: none;
+                color: $color-light;
+                @include box-shadow(0px 18px 18px 0 rgba(0, 0, 0, 0.2));
+                &:focus{
+                    border-color: $color-primary;
+                }
+            }
+        }
+        .frm_button_submit {
+            border-color: $color-primary;
+            color: $color-primary;
+
+            &:hover, &:active, &:focus{
+                background-color: $color-primary;
+                color: $color-light;
+            }
+        }
+    }
+}

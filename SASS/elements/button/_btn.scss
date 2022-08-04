@@ -1,0 +1,89 @@
+// main: ../_elements.scss
+
+// BTN
+.btn{
+    border-radius: 5rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+
+    &-primary{
+        background: $color-primary;
+        color: $color-light;
+        border: none;
+        &:hover{
+            background: $color-primary-light;
+            color: $color-light;
+            border: none;
+        }
+    }
+    &-outline-primary{
+        color: $color-primary;
+        border: 1px solid $color-primary;
+        background: none;
+        &:hover{
+            color: $color-light;
+            background: $color-primary-light;
+            border: none;
+        }
+    }
+
+    &-simple{
+        //background: rgba($color-light, .3);
+        background: #4c4c4c;
+        color: $color-light;
+        border: none;
+        &:hover{
+            background: $color-primary-light;
+            color: $color-light;
+        }
+    }
+    &-outline-simple{
+        //border: 1px solid rgba($color-light, .3);
+        border: 1px solid #4c4c4c;
+        color: #4c4c4c;
+        background: none;
+        &:hover{
+            background: $color-primary-light;
+            color: $color-light;
+            border: none;
+        }
+    }
+
+    .icons{
+        margin-right: 0.5rem;
+    }
+}
+
+// GROUP BTN
+.group-btn{
+    margin-top: 1rem;
+
+    .btn{
+        margin-right: 1rem;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .btn{
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+    .group-btn{
+        margin-top: 1.5rem;
+    }
+}
+@include responsive(XS){
+    .btn{
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+    .group-btn{
+        margin-top: 1.5rem;
+    }
+}

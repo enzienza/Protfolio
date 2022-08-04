@@ -1,0 +1,22 @@
+// main: ../_elements.scss
+
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-between{
+    @include flex;
+    @include flex-direction(row);
+    @include justify-content(space-between);
+
+    @include responsive(SM){
+        @include flex-direction(column);
+        @include justify-content(center)
+    }
+    @include responsive(XS){
+        @include flex-direction(column);
+        @include justify-content(center)
+    }
+}

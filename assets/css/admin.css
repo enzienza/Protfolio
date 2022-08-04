@@ -83,6 +83,9 @@ Tags:
 .space-x-8{
     margin-left: 2rem;
 }
+.space-y-2{
+    margin-top: .5rem;
+}
 .space-y-4{
     margin-top: 1rem;
 }
@@ -151,6 +154,22 @@ Tags:
     margin-top: 2rem;
     border-top: 1px solid var(--lighten-grey);
     padding-top: 1rem;
+}
+
+
+.elem-group{
+    /*display: flex;*/
+    /*flex-flow: row nowrap;*/
+    /*width: 70%;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    line-height: 2;
+    margin: 0;
+}
+
+.elem-item{
+    width: 100%;
 }
 
 /** ==============================================
@@ -278,6 +297,10 @@ form h2 {
     font-size: .9em;
 }
 
+/*.myoptions ul {*/
+/*    padding: 0;*/
+/*    margin: .5em 0;*/
+/*}*/
 
 /* Photo / Media  */
 .mini-thumbnail{
@@ -329,6 +352,15 @@ form h2 {
     border-radius: 5px;
     border: 1px solid var(--lighten-grey);
 }
+
+.choose-item{
+    line-height: 2;
+}
+
+.choose-item label{
+    vertical-align: inherit;
+}
+
 
 /** ==============================================
     5 - COLUMNS ADMIN [Custom-Post-Type]
@@ -460,12 +492,16 @@ input[type="radio"]{
 
 /* --- XS --- */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-
+    .elem-group{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* --- SM --- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+    .elem-group{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* --- MD --- */

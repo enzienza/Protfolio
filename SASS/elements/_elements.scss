@@ -7,11 +7,11 @@
 
 
 // BUTTON ==================================================
-//@import "button/btn";
+@import "button/btn";
 
 
 // CONTAINER ===============================================
-// @import "container/";
+ @import "container/my-container";
 
 
 // CONTENT =================================================
@@ -22,7 +22,9 @@
 // @import "core/";
 
 // DISPLAY =================================================
-//@import "display/";
+@import "display/flex";
+@import "display/grid";
+@import "display/order";
 
 // EFFECTS =================================================
 //@import "effects/";
@@ -41,7 +43,9 @@
 
 
 // PICTURE =================================================
-// @import "picture/";
+ @import "picture/box";
+ @import "picture/polygone";
+ @import "picture/profile";
 
 
 // PROGRESS ================================================

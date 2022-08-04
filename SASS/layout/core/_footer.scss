@@ -1,0 +1,70 @@
+// main: ../_layout.scss
+
+.footer{
+    text-align: center;
+    line-height: 2em;
+    //border-top: .001em solid;
+    color: rgba($color-dark, .5);
+
+    a{
+        color: #5e5e5e;
+        @include transition(color 350ms ease);
+        &:hover{
+            color: $color-primary-light;
+        }
+    }
+
+    .higt{
+        color: #5e5e5e;
+    }
+}
+
+.legal{
+    &-list{
+        @include flex;
+        @include flex-flow(row nowrap);
+    }
+    &-item{
+        //margin-right: 1rem;
+        //&:last-child{
+        //    margin-right: 0;
+        //}
+        &::after{
+            content: "|";
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+        }
+        &:last-child::after {
+            content: "";
+            padding: 0;
+        }
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .footer{
+        .flex-between{
+            line-height: 1.5;
+        }
+    }
+    .legal{
+        &-list{
+            justify-content: center;
+        }
+    }
+}
+@include responsive(XS){
+    .footer{
+        .flex-between{
+            line-height: 1.5;
+        }
+    }
+    .legal{
+        &-list{
+            justify-content: center;
+        }
+    }
+}
