@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-04 10:04+0000\n"
+"PO-Revision-Date: 2022-08-04 09:42+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:305
 msgid "\"name-Theme\" © 2022 | Created by Enza Lombardo"
-msgstr "\"name-theme\" © 2022 | Créé par Enza Lombardo"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:115
 msgid "about"
-msgstr "À propos"
+msgstr ""
 
 #. slug parent
 #. page_title
@@ -41,7 +41,7 @@ msgstr "Ajouter les médias"
 
 #: template-parts/footer/copyright.php:20
 msgid "All rights reserved"
-msgstr "Tous les droits sont réservés"
+msgstr ""
 
 #: inc/option-themes/OP_profile/02-media.php:199
 #: inc/option-themes/OP_profile/02-media.php:216
@@ -51,7 +51,7 @@ msgstr "aperçu : "
 
 #: inc/option-themes/OP_theme/02-core.php:265
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:141
@@ -60,41 +60,39 @@ msgstr "Behance"
 
 #: inc/option-themes/OP_theme/02-core.php:279
 msgid "Cacher la section réseaux sociaux de la sidebar"
-msgstr "Cacher les réseaux sociaux de la sidebar"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:223
 msgid "Cacher la section utilisateur de la sidebar"
-msgstr "Cacher la section utilisateur de la salle bar"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:117
 msgid "Ce qui doit être présent"
-msgstr "Ce qui doit être présent"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:124
 msgid "Choisir l'image"
-msgstr "Choisir l'image"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:302
 msgid "Choisir le format du copyright à afficher"
-msgstr "Choisir le format du copyright à afficher"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:288
 msgid "Choisir le type de footer à afficher"
-msgstr "Choisir le type du pied de page affiche"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:317
 msgid ""
 "Choisir les mentions légals à afficher | Uniquement si Partie légale est "
 "coché"
 msgstr ""
-"Choisir les mentions légales à afficher | Uniquement si la partie légale est "
-"coché"
 
 #: inc/option-themes/OP_theme/02-core.php:233
 msgid "Cocher ce qui doit être présent"
-msgstr "Cocher ce qui doit être présent"
+msgstr ""
 
 #: inc/option-themes/OP_profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
@@ -104,24 +102,24 @@ msgstr "Coucher et ajouter l'URL de vos réseaux sociaux"
 #: template-parts/footer/legal.php:45
 #: inc/option-themes/OP_theme/02-core.php:324
 msgid "Cookies"
-msgstr "Cookies"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:171
 msgid "Copyright"
-msgstr "Copyright"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:295
 msgid "Copyright + Partie légale"
-msgstr "Copyright + Partie légale"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:309
 msgid "Copyright ©  2022 Enza | All rights reserved"
-msgstr "Copyright © 2022 Enza | Tous les droits sont réservés"
+msgstr ""
 
 #: template-parts/footer/copyright.php:15
 msgid "Created by"
-msgstr "Créé par "
+msgstr ""
 
 #. slug parent
 #. page_title
@@ -138,11 +136,11 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:203
 msgid "Dans cette section, vous pouvez gérer tous les éléments du footer"
-msgstr "Dans cette section, vous pouvez gérer les éléments du pied de page"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:197
 msgid "Dans cette section, vous pouvez gérer tous les éléments du header"
-msgstr "Dans cette section, vous pouvez gérer les éléments de l'en-tête"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:120
@@ -194,25 +192,25 @@ msgstr "GitHub"
 #: inc/option-themes/OP_theme/01-customtheme.php:132
 #: inc/option-themes/OP_theme/01-customtheme.php:147
 msgid "Gérer la section"
-msgstr "Gérer la section"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_theme/02-core.php:156
 msgid "Gérer le footer"
-msgstr "Gérer le pied de page"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_theme/02-core.php:102
 msgid "Gérer le header"
-msgstr "Gérer l'en-tête"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:85
 msgid "Header"
-msgstr "En-tête"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:100
 msgid "Home"
-msgstr "Accueil"
+msgstr ""
 
 #. Author URI of the theme
 msgid "http://www.enzalombardo.be"
@@ -233,7 +231,7 @@ msgstr "Instagram"
 
 #: inc/option-themes/OP_theme/02-core.php:245
 msgid "Job"
-msgstr "Job"
+msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:291
 msgid "La localité"
@@ -241,23 +239,23 @@ msgstr "La localité"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:122
 msgid "Lien pour gérer l'affichage de l'about"
-msgstr "Lien pour gérer la section \"à propos\""
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:92
 msgid "Lien pour gérer l'affichage de l'header"
-msgstr "Lien pour gérer l'affichage de l'en-tête et du pied de page"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:107
 msgid "Lien pour gérer l'affichage de l'home"
-msgstr "Lien pour gérer la section \"accueil\""
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:152
 msgid "Lien pour gérer l'affichage de la page d'erreur"
-msgstr "Lien pour gérer la page d'erreur"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:137
 msgid "Lien pour gérer l'affichage de le portfolio"
-msgstr "Lien pour gérer la section \"portfolio\""
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:133
@@ -271,7 +269,7 @@ msgstr "Localité"
 
 #: inc/option-themes/OP_theme/02-core.php:269
 msgid "Logo"
-msgstr "Logo"
+msgstr ""
 
 #: inc/option-themes/OP_profile/02-media.php:214
 #: inc/option-themes/OP_profile/02-media.php:218
@@ -287,7 +285,7 @@ msgstr "Ma photo de profil"
 #: template-parts/footer/legal.php:26
 #: inc/option-themes/OP_theme/02-core.php:320
 msgid "Mentions légales"
-msgstr "Mentions légales"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:142
@@ -336,7 +334,7 @@ msgstr "Mon profile"
 #: inc/option-themes/OP_theme/01-customtheme.php:57
 #: inc/option-themes/OP_theme/01-customtheme.php:58
 msgid "Mon thème"
-msgstr "Mon thème"
+msgstr ""
 
 #. Description of the theme
 msgid "My Portfolio online"
@@ -358,11 +356,11 @@ msgstr "Nom complet"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:145
 msgid "Page d'erreur"
-msgstr "Page d'erreur"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:73
 msgid "Page d'option du theme"
-msgstr "Page d'option du thème"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/04-aboutme.php:118
@@ -374,7 +372,7 @@ msgstr "Parler de sois"
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:178
 msgid "Partie légale"
-msgstr "Partie légale"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/04-aboutme.php:111
@@ -385,11 +383,11 @@ msgstr "Petit intro"
 
 #: inc/option-themes/OP_theme/02-core.php:249
 msgid "Photo"
-msgstr "Photo"
+msgstr ""
 
 #: inc/option-themes/OP_theme/01-customtheme.php:130
 msgid "Portfolio"
-msgstr "Portfolio"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:187
@@ -398,7 +396,7 @@ msgstr "Poste"
 
 #: inc/option-themes/OP_theme/02-core.php:261
 msgid "Profil"
-msgstr "Profil"
+msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:265
 #: inc/option-themes/OP_theme/02-core.php:241
@@ -453,12 +451,12 @@ msgstr ""
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:131
 msgid "Section social"
-msgstr "Section sociale"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:110
 msgid "Section utilisateur"
-msgstr "Section utilisateur"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:157
@@ -474,7 +472,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/01-customtheme.php:75
 msgid "Sur cette page vous pouvez gérer les différents éléments de notre theme"
 msgstr ""
-"Sur cette page vous pouvez gérer les différents éléments de notre thème"
 
 #: inc/option-themes/OP_profile/03-network.php:71
 msgid "Sur cette page vous pouvez gérer les url de vos réseaux sociaux"
@@ -517,7 +514,7 @@ msgstr "Twitter"
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:164
 msgid "Type"
-msgstr "Type"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:164
@@ -526,11 +523,11 @@ msgstr "Téléphone"
 
 #: inc/option-themes/OP_theme/02-core.php:291
 msgid "Uniquement le copyright"
-msgstr "Uniquement le copyright"
+msgstr ""
 
 #: inc/option-themes/OP_theme/02-core.php:257
 msgid "Uniquement si photo est chocher"
-msgstr "Uniquement si la photo est coché"
+msgstr ""
 
 #: inc/option-themes/OP_profile/04-aboutme.php:71
 msgid "À propos de moi"
