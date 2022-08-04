@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-04 10:11+0000\n"
+"PO-Revision-Date: 2022-08-04 19:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -108,6 +108,11 @@ msgstr "Check what should be present"
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr "Check and add the URL of your social networks"
 
+#: inc/option-themes/OP_theme/01-customtheme.php:145
+msgid "Contact"
+msgstr ""
+"Contact\n"
+
 #: template-parts/footer/legal.php:37 template-parts/footer/legal.php:41
 #: template-parts/footer/legal.php:45
 #: inc/option-themes/OP_theme/02-core.php:324
@@ -130,6 +135,11 @@ msgstr ""
 msgid "Copyright ©  2022 Enza | All rights reserved"
 msgstr ""
 "Copyright © 2022 Enza | All rights reserved\n"
+
+#: inc/option-themes/OP_theme/01-customtheme.php:85
+msgid "Core"
+msgstr ""
+"Core\n"
 
 #: template-parts/footer/copyright.php:15
 msgid "Created by"
@@ -210,6 +220,7 @@ msgstr "GitHub"
 #: inc/option-themes/OP_theme/01-customtheme.php:117
 #: inc/option-themes/OP_theme/01-customtheme.php:132
 #: inc/option-themes/OP_theme/01-customtheme.php:147
+#: inc/option-themes/OP_theme/01-customtheme.php:162
 msgid "Gérer la section"
 msgstr "Manage the section"
 
@@ -224,11 +235,6 @@ msgstr ""
 msgid "Gérer le header"
 msgstr ""
 "Manage header\n"
-
-#: inc/option-themes/OP_theme/01-customtheme.php:85
-msgid "Header"
-msgstr ""
-"Header\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:100
 msgid "Home"
@@ -260,29 +266,36 @@ msgid "La localité"
 msgstr ""
 "The location\n"
 
-#: inc/option-themes/OP_theme/01-customtheme.php:122
-msgid "Lien pour gérer l'affichage de l'about"
-msgstr ""
-"Link to manage the \"about\" section\n"
-
 #: inc/option-themes/OP_theme/01-customtheme.php:92
-msgid "Lien pour gérer l'affichage de l'header"
+msgid "Lien pour gérer l'affichage de l'header et du footer"
 msgstr ""
-"Link to manage \"header\" and \"footer\" display\n"
+"Link to manage the header and footer display\n"
 
-#: inc/option-themes/OP_theme/01-customtheme.php:107
-msgid "Lien pour gérer l'affichage de l'home"
-msgstr ""
-"Link to manage the \"home\" section\n"
-
-#: inc/option-themes/OP_theme/01-customtheme.php:152
+#: inc/option-themes/OP_theme/01-customtheme.php:167
 msgid "Lien pour gérer l'affichage de la page d'erreur"
 msgstr ""
 "Link to manage the error page\n"
 
+#: inc/option-themes/OP_theme/01-customtheme.php:152
+msgid "Lien pour gérer la section contact"
+msgstr ""
+"Link to manage the contact section\n"
+
+#: inc/option-themes/OP_theme/01-customtheme.php:107
+#| msgid "Lien pour gérer l'affichage de l'home"
+msgid "Lien pour gérer la section de l'home"
+msgstr ""
+"Link to manage the home section\n"
+
+#: inc/option-themes/OP_theme/01-customtheme.php:122
+msgid "Lien pour gérer la section l'about"
+msgstr ""
+"Link to manage the about section\n"
+
 #: inc/option-themes/OP_theme/01-customtheme.php:137
-msgid "Lien pour gérer l'affichage de le portfolio"
-msgstr "Link to manage the \"portfolio\" section"
+msgid "Lien pour gérer la section portfolio"
+msgstr ""
+"Link to manage the portfolio section\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:133
@@ -391,7 +404,7 @@ msgid "Nom complet"
 msgstr ""
 "Full name\n"
 
-#: inc/option-themes/OP_theme/01-customtheme.php:145
+#: inc/option-themes/OP_theme/01-customtheme.php:160
 msgid "Page d'erreur"
 msgstr ""
 "Error page\n"
