@@ -26,3 +26,4 @@ require_once ('OP_profile/05-curriculum.php');
  */
 require_once ('OP_theme/01-customtheme.php');
 require_once ('OP_theme/02-core.php');
+require_once ('OP_theme/03-home.php');

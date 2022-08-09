@@ -72,6 +72,11 @@ if(!function_exists('custom_admin')) {
             'montheme_admin',
             get_template_directory_uri() . '/assets/css/admin.css'
         );
+
+        wp_enqueue_style(
+            'flaticons',
+            get_template_directory_uri() . '/assets/fonts/flaticon/flaticon.css'
+        );
     }
 }
 add_action('admin_enqueue_scripts', 'custom_admin');
