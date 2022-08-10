@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: 03-home
- * Description: this file allows to manage display of the header and the footer
+ * Description: this file allows to manage display of the home section
  *
  * @package WordPress
  * @subpackage MyPortfolio
@@ -399,7 +399,7 @@ class mycustome_home{
         <div class="box-greeting">
             <p>
                 <input type="radio" name="choose_format" value="1" <?php checked(1, $choose_format, true); ?> />
-                <label for=""><?php _e('Ajouter une image comme arrière plan', "MyPortfolio"); ?></label>
+                <label for=""><?php _e('Salutation en 1 ligne', "MyPortfolio"); ?></label>
             </p>
             <div class="grid-cols-3">
                 <div class="grid-box">

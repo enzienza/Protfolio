@@ -11,7 +11,7 @@
 
 <div class="group-btn">
     <?php if(checked(1, get_option('hero_btn_about'), false)) : ?>
-        <a href="#about" class="btn btn-simple" target="_blank">
+        <a href="#about" class="btn btn-simple">
             <?php if(checked(1, get_option('hero_icon_about'), false)) : ?>
                 <i class="icons flaticon-user"></i>
             <?php endif; ?>
@@ -29,7 +29,7 @@
     <?php endif; ?>
 
     <?php if(checked(1, get_option('hero_btn_contact'), false)) : ?>
-        <a href="#contact" class="btn btn-simple" target="_blank">
+        <a href="#contact" class="btn btn-simple">
             <?php if(checked(1, get_option('hero_icon_contact'), false)) : ?>
                 <i class="icons flaticon-email"></i>
             <?php endif; ?>

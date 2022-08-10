@@ -1,7 +1,8 @@
 <?php
 /**
  * Name file: contents
- * Description:
+ * Description: show content on home section
+ * Important : use hooks get_locale()
  *
  * @package WordPress
  * @subpackage MyPortfolio

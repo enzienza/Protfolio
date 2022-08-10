@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: buttons
- * Description: show buttons on about section
+ * Description: show buttons on home section
  * important : use hooks get_locale()
  *
  * @package WordPress
