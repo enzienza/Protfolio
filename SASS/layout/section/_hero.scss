@@ -1,0 +1,98 @@
+// main: ../_layout.scss
+
+.hero-wrap{
+    min-height: calc(100vh - (1rem + 5vmin));
+    position: relative;
+    @include bg-paralax;
+    @include flex;
+    @include flex-flow(column nowrap);
+    @include justify-content(center);
+
+    &::after{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: "";
+        background: #191919;
+        opacity: .7;
+        z-index: 0;
+    }
+}
+
+.jumb-content{
+    color: $color-light;
+    z-index: 1;
+    margin: 0 calc(15% - (1rem + 5vmin));
+    text-shadow: 4px 2px 4px rgba(9,9,9,0.9);
+
+    h3{
+        font-size: x-large;
+        letter-spacing: 3px;
+        margin-bottom: .5rem;
+    }
+
+    h2{
+        line-height: 2;
+        text-transform: uppercase;
+        font-size: larger;
+        margin-top: .5rem;
+    }
+}
+
+.desc{
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.big-title{
+    span{
+        color: $color-primary;
+    }
+}
+
+.hight{
+    &-small{
+        text-shadow: 0 0 3px $color-primary,0 0 3px $color-primary, 0 0 3px $color-primary,0 0 3px $color-primary, 0 0 3px $color-primary,0 0 3px $color-primary, 0 0 3px $color-primary,0 0 3px $color-primary;
+    }
+    &-normal{
+        text-shadow: -5px -5px 5px $color-primary,-5px 5px 5px $color-primary, 5px -5px 5px $color-primary,5px 5px 5px $color-primary;
+    }
+    &-large{
+        color: $color-light;
+        text-shadow: 0 0 10px hsl(272.2, 51.9%, 54.3%), 0 0 10px hsl(272.2, 51.9%, 54.3%), 0 0 10px hsl(272.2, 51.9%, 54.3%), 0 0 5px hsl(272.2, 51.9%, 54.3%), 0 0 5px hsl(272.2, 51.9%, 54.3%), 0 0 5px hsl(272.2, 51.9%, 54.3%);
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .big-title{
+        font-size: 1.6rem;
+    }
+    .jumb-content{
+        h2, h3{
+            font-size: 1rem;
+        }
+    }
+    .desc{
+        margin-bottom: 1.5rem;
+        font-size: small;
+    }
+}
+@include responsive(XS){
+    .big-title{
+        font-size: 1.6rem;
+    }
+    .jumb-content{
+        h2, h3{
+            font-size: 1rem;
+        }
+    }
+    .desc{
+        margin-bottom: 1.5rem;
+        font-size: small;
+    }
+}

@@ -2,7 +2,7 @@
 
 section{
     padding: 1rem;
-    min-height: 90vh;
+    min-height: 100vh;
     //@include flex;
     //@include flex-flow(column nowrap);
     //@include justify-content(center);
@@ -13,7 +13,7 @@ section{
 }
 
 #home, #about {
-    min-height: 100vh;
+    //min-height: 100vh;
     margin-bottom: 2rem;
 }
 
