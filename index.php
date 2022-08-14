@@ -12,9 +12,11 @@
 <?php get_header(); ?>
 
 <?php get_template_part('template-parts/components/switch-mode') ?>
-    <div id="home" class="my-container" style="height: 100vh">
-        <h1>Home section</h1>
-    </div>
+
+    <?php if(checked(1, get_option('hero_hidden_section'), false)) : else : ?>
+        <?php get_template_part('template-parts/home/index', 'home') ?>
+    <?php endif; ?>
+
     <div id="about" class="my-container" style="height: 100vh">
         <h1>About section</h1>
     </div>

@@ -156,7 +156,16 @@ Tags:
     padding-top: 1rem;
 }
 
+blockquote{
+    margin: 1em;
+    border-left: 2px solid var(--color-border);
+    padding-left: 10px;
+    text-align: justify;
+    font-size: small;
+    color: var(--color-border);
+}
 
+/* list inline */
 .elem-group{
     /*display: flex;*/
     /*flex-flow: row nowrap;*/
@@ -170,6 +179,22 @@ Tags:
 
 .elem-item{
     width: 100%;
+    line-height: 1rem;
+}
+.elem-item .icons {
+    margin-left: 1em;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
 }
 
 /** ==============================================
@@ -184,6 +209,8 @@ body.login {
 /* logo */
 #login h1 a, .login h1 a {
     background: url('../img/logo-login.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
     max-width: 257px;
     max-height: 198px;
     /*filter: invert(0.9);*/
