@@ -368,7 +368,7 @@ class mycustome_home{
             <input type="checkbox" id="add_bg_hero" name="add_bg_hero" value="1" <?php checked(1, $add_bg_hero, true); ?> />
             <label for=""><?php _e('Ajouter une image comme arrière plan', "MyPortfolio"); ?></label>
         </div>
-        <div>
+        <div class="seen space-y-2">
             <p><?php _e("Aperçu :", "MyPortfolio"); ?></p>
             <img src="<?php echo get_option('bg_hero'); ?>"
                  alt="background home section" class="img-hero"
