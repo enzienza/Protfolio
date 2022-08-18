@@ -376,7 +376,7 @@ class mycustome_about{
                     <label for=""><?php _e('Afficher une photo', "MyPortfolio"); ?></label>
                 </p>
                 <p>
-                    <input type="radio" name="about_right_design" value="1" <?php checked(1, $about_right_design, true); ?>  />
+                    <input type="radio" name="about_right_design" value="2" <?php checked(2, $about_right_design, true); ?>  />
                     <label for=""><?php _e('Afficher "Info Complémentaire"', "MyPortfolio"); ?></label>
                 </p>
             </div>
