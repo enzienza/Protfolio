@@ -377,7 +377,11 @@ class mycustome_about{
                 </p>
                 <p>
                     <input type="radio" name="about_right_design" value="2" <?php checked(2, $about_right_design, true); ?>  />
-                    <label for=""><?php _e('Afficher "Info Complémentaire"', "MyPortfolio"); ?></label>
+                    <label for=""><?php _e('Afficher le "Counter"', "MyPortfolio"); ?></label>
+                </p>
+                <p>
+                    <input type="radio" name="about_right_design" value="3" <?php checked(3, $about_right_design, true); ?>  />
+                    <label for=""><?php _e('Afficher les deux (Photo & Counter)', "MyPortfolio"); ?></label>
                 </p>
             </div>
         </div>

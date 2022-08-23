@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: desc
- * Description: show description on about section
+ * Description: show lists for personal details on about section
  * Important : use hooks get_locale()
  *
  * @package WordPress

@@ -66,9 +66,27 @@
     }
 }
 
-@include responsive(XL){}
-@include responsive(LG){}
-@include responsive(MD){}
+@include responsive(XL){
+    .group-btn{
+        .btn{
+            margin-bottom: 1rem;
+        }
+    }
+}
+@include responsive(LG){
+    .group-btn{
+        .btn{
+            margin-bottom: 1rem;
+        }
+    }
+}
+@include responsive(MD){
+    .group-btn{
+        .btn{
+            margin-bottom: 1rem;
+        }
+    }
+}
 @include responsive(SM){
     .btn{
         width: 100%;

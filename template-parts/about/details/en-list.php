@@ -25,9 +25,9 @@
                 <span class="detail-title"><?php _e("Âge", "MyPortfolio"); ?></span>
                 <span class="detail-separater"></span>
                 <?php
-                    $dateOfBirth = new DateTime(get_option('mybirthday'));
-                    $myAge = $dateOfBirth -> diff(new DateTime);
-                    echo $myAge -> y;
+                $dateOfBirth = new DateTime(get_option('mybirthday'));
+                $myAge = $dateOfBirth -> diff(new DateTime);
+                echo $myAge -> y;
                 ?>
             </li>
         <?php endif; ?>

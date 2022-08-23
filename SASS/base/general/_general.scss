@@ -38,7 +38,7 @@ ul {
     list-style: none;
 }
 
-
+// HEADING
 h1,
 h2,
 h3,
@@ -76,6 +76,16 @@ img {
     max-width: 100%;
 }
 
+// Width
+.w-half{
+    width: 50%;
+}
+
+.w-full{
+    width: 100%;
+}
+
+// VIVIBILITY
 .visible {
     visibility: visible;
 }
@@ -84,6 +94,7 @@ img {
     visibility: hidden;
 }
 
+// RESPONSIVE
 @include responsive(XL){
     body{
         padding-left: 19rem;
@@ -101,11 +112,17 @@ img {
     }
 }
 @include responsive(SM){
+    .w-half{
+        width: 100%;
+    }
     section{
         padding: 3rem;
     }
 }
 @include responsive(XS){
+    .w-half{
+        width: 100%;
+    }
     section{
         padding: 3rem;
     }
