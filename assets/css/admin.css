@@ -100,6 +100,9 @@ Tags:
 }
 
 /* SIZING */
+.w-10{
+    width: 11rem;
+}
 .w-50{
     width: 50%;
 }
@@ -165,18 +168,15 @@ blockquote{
     color: var(--color-border);
 }
 
-/* list inline */
+/* --- list inline --- */
+/* Grid 5 Columns */
 .elem-group{
-    /*display: flex;*/
-    /*flex-flow: row nowrap;*/
-    /*width: 70%;*/
-    /*justify-content: space-between;*/
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    line-height: 2;
+    /*line-height: 2;*/
     margin: 0;
+    margin-top: .5rem;
 }
-
 .elem-item{
     width: 100%;
     line-height: 1rem;
@@ -186,7 +186,17 @@ blockquote{
     vertical-align: middle;
     font-weight: bold;
 }
+/* Grid 2 columns */
+.list-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list-item{
+    width: 100%;
+    line-height: 2;
+}
 
+/* text align */
 .text-left{
     text-align: left;
 }
@@ -196,6 +206,7 @@ blockquote{
 .text-right{
     text-align: right;
 }
+
 
 /** ==============================================
      2 - LOGIN PAGE
@@ -240,6 +251,14 @@ body.login {
 /** ==============================================
     3 - ALL DASHBOARD
  */
+/* form */
+form h2 {
+    padding-top: 1.5em;
+    border-top: 1px solid var(--lighten-grey);
+    width: 98%;
+    font-size: 1.3em;
+}
+/* Element Forms */
 input[type="color"],
 input[type="date"],
 input[type="datetime-local"],
@@ -266,13 +285,35 @@ input[type="checkbox"]{
     border-color: var(--lighten-grey);
     margin: auto 5px;
 }
+::placeholder{
+    color: var(--color-border);
+}
+
+.small-input{
+    width: 8rem;
+}
+
+/* general */
+.general-item {
+    display: inline-flex;
+    align-items: center;
+}
+.general-item input[type="checkbox"],
+.project-item input[type="checkbox"],
+.client-item input[type="checkbox"]{
+    margin: 0;
+    margin-right: 5px;
+}
+.project-item, .client-item{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 .grid-box input[type="text"] {
     width: 100%;
-}
-
-::placeholder{
-    color: var(--color-border);
 }
 
 .wp-admin {
@@ -283,21 +324,48 @@ input[type="checkbox"]{
     font-size: 2em;
 }
 
-form h2 {
-    padding-top: 1.5em;
-    border-top: 1px solid var(--lighten-grey);
-    width: 98%;
-    font-size: 1.3em;
-}
-
-
+/* Picture */
 .img-hero{
     width: 40%;
     object-fit: cover;
     max-height: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: .5rem 0;
 }
 
+/* other */
+.underline-700{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.underline-700::after{
+    content: ":";
+    padding-left: 7px;
+    padding-right: 7px;
+    display: inline-flex;
+}
+
+/* box-choose */
+.box-choose{
+    border: 1px dashed var(--color-border);
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    margin-right: 2rem;
+}
+.box-choose .box-title{
+    color: var(--color-border);
+}
+.box-choose .grid-cols-3 {
+    padding: 0.5em 1.5em;
+}
+
+.box-choose blockquote{
+    font-size: smaller;
+}
+.box-choose .mt-1 {
+    padding: .5rem;
+}
 
 /** ==============================================
     4 - MYOPTIONS [API - Options-Theme]
@@ -363,7 +431,6 @@ form h2 {
     line-height: 3;
     margin-bottom: .5rem;
 }
-
 .picture-cv-file input[type="file"], .input-file input[type="file"] {
     background: var(--color-white);
     width: 100%;
@@ -371,7 +438,6 @@ form h2 {
     border-radius: 5px;
     border:1px solid var(--lighten-grey);
 }
-
 .bg-input-file input[type="file"]{
     background: var(--color-white);
     width: 40%;
@@ -380,6 +446,8 @@ form h2 {
     border: 1px solid var(--lighten-grey);
 }
 
+
+/* choose-item */
 .choose-item{
     line-height: 2;
 }
@@ -425,6 +493,7 @@ form h2 {
 .control::after{
     content: " : ";
 }
+
 /* footnotes */
 .footnote-mark a{
     font-size: x-small;

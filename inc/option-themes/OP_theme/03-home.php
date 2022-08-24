@@ -368,7 +368,7 @@ class mycustome_home{
             <input type="checkbox" id="add_bg_hero" name="add_bg_hero" value="1" <?php checked(1, $add_bg_hero, true); ?> />
             <label for=""><?php _e('Ajouter une image comme arrière plan', "MyPortfolio"); ?></label>
         </div>
-        <div>
+        <div class="seen space-y-2">
             <p><?php _e("Aperçu :", "MyPortfolio"); ?></p>
             <img src="<?php echo get_option('bg_hero'); ?>"
                  alt="background home section" class="img-hero"
@@ -538,7 +538,7 @@ class mycustome_home{
         <p class="description"><?php _e("Uniquement si la section est visible", "MyPortfolio") ?></p>
         <div class="grid-cols-3">
             <div class="grid-box">
-                <p class="box-title"><?php _e('Francais', "MyPortfolio"); ?></p>
+                <p class="box-title"><?php _e('Français', "MyPortfolio"); ?></p>
                 <input type="text"
                        id="hero_msg_job_fr"
                        name="hero_msg_job_fr"
@@ -579,7 +579,7 @@ class mycustome_home{
         ?>
         <div class="grid-cols-3">
             <div class="grid-box">
-                <p class="box-title"><?php _e('Francais', "MyPortfolio"); ?></p>
+                <p class="box-title"><?php _e('Français', "MyPortfolio"); ?></p>
                 <p>
                     <input type="checkbox" id="hero_show_about_fr" name="hero_show_about_fr" value="1" <?php checked(1, $hero_show_about_fr, true); ?> />
                     <label for=""><?php _e("Ajouter la petite intro", 'MyPortfolio'); ?></label>

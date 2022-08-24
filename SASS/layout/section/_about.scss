@@ -1,0 +1,130 @@
+// main: ../_layout.scss
+
+#about{
+    margin-bottom: 4rem;
+}
+
+.about{
+    &-grid{
+        margin: 2rem auto;
+        gap: 3rem;
+    }
+    &-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    &-content{}
+    &-detail{
+        margin-top: 3rem;
+        margin-bottom: 2em;
+        font-size: calc(1rem + .1vmin);
+        h3{
+            padding-bottom: .5rem;
+        }
+    }
+    &-image {
+        @include flex;
+        @include justify-content(center);
+        @include flex-flow(column nowrap);
+        @include align-items(center);
+    }
+    &-counter{
+        margin-top: 5rem;
+    }
+}
+
+.detail{
+    &-title{
+        color: $color-primary-dark;
+        font-weight: 600;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 20%;
+    }
+    &-separater::before{
+        content:":";
+        padding-right: 5px;
+    }
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex: 1 1 48rem;
+    &-box{
+        text-align: center;
+        padding: 1rem;
+        margin: 0 1rem 2rem;
+        width: 13rem;
+        box-shadow: 0 2px 15px rgba(0,0,0,.15);
+        border-radius: 10px;
+    }
+    &-numb{
+        color: $color-primary-dark;
+        font-size: xxx-large;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    &-title{
+        font-size: x-large;
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+}
+
+@include responsive(XL){}
+@include responsive(LG){}
+@include responsive(MD){}
+@include responsive(SM){
+    .about{
+        &-content{
+            margin-bottom: 3rem;
+            order: 9998;
+        }
+        &-image{
+            order: 1;
+            padding-bottom: 2rem;
+        }
+        &-counter{
+            order: 9999;
+            margin-top: 0;
+        }
+    }
+    .detail-title{
+        width: 30%;
+    }
+    .counter{
+        &-box{
+            width: 100%;
+            margin: 0 0 2rem;
+        }
+    }
+}
+@include responsive(XS){
+    .about{
+        &-content{
+            margin-bottom: 3rem;
+            order: 9998;
+        }
+        &-image{
+            order: 1;
+            padding-bottom: 2rem;
+        }
+        &-counter{
+            order: 9999;
+            margin-top: 0;
+        }
+    }
+    .detail-title{
+        width: 30%;
+    }
+    .counter{
+        &-box{
+            width: 100%;
+            margin: 0 0 2rem;
+        }
+    }
+}

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-04 19:07+0000\n"
+"PO-Revision-Date: 2022-08-10 15:08+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -19,7 +19,18 @@ msgstr ""
 msgid "\"name-Theme\" © 2022 | Created by Enza Lombardo"
 msgstr "\"name-theme © 2022 | Created by Enza Lombardo"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:256
+#: template-parts/home/button/fr-btn.php:18
+#: template-parts/home/button/it-btn.php:18
+#: template-parts/home/button/en-btn.php:18
+msgid "About"
+msgstr ""
+"About\n"
+
+#. SLUG_SECTION
 #: inc/option-themes/OP_theme/01-customtheme.php:115
+#: inc/option-themes/OP_theme/03-home.php:221
 msgid "about"
 msgstr "about"
 
@@ -29,6 +40,27 @@ msgstr "about"
 #: inc/option-themes/OP_profile/04-aboutme.php:58
 msgid "About me"
 msgstr "About me"
+
+#: inc/option-themes/OP_theme/03-home.php:630
+#: inc/option-themes/OP_theme/03-home.php:646
+#: inc/option-themes/OP_theme/03-home.php:662
+msgid "Afficher l'îcone"
+msgstr ""
+"Show icon\n"
+
+#: inc/option-themes/OP_theme/03-home.php:626
+#: inc/option-themes/OP_theme/03-home.php:642
+#: inc/option-themes/OP_theme/03-home.php:658
+msgid "Afficher le bouton"
+msgstr ""
+"Show button\n"
+
+#: inc/option-themes/OP_theme/03-home.php:585
+#: inc/option-themes/OP_theme/03-home.php:596
+#: inc/option-themes/OP_theme/03-home.php:607
+msgid "Ajouter la petite intro"
+msgstr ""
+"Add small intro\n"
 
 #: inc/option-themes/OP_profile/02-media.php:128
 msgid "Ajouter les différentes photo de votre Portfolio"
@@ -41,9 +73,27 @@ msgid "Ajouter les medias"
 msgstr ""
 "Add media\n"
 
+#: inc/option-themes/OP_theme/03-home.php:369
+msgid "Ajouter une image comme arrière plan"
+msgstr ""
+"Add background image\n"
+
 #: template-parts/footer/copyright.php:20
 msgid "All rights reserved"
 msgstr "All rights reserved"
+
+#: inc/option-themes/OP_theme/03-home.php:415
+#: inc/option-themes/OP_theme/03-home.php:462
+#: inc/option-themes/OP_theme/03-home.php:551
+#: inc/option-themes/OP_theme/03-home.php:593
+msgid "Anglais"
+msgstr ""
+"English\n"
+
+#: inc/option-themes/OP_theme/03-home.php:372
+msgid "Aperçu :"
+msgstr ""
+"Preview :\n"
 
 #: inc/option-themes/OP_profile/02-media.php:199
 #: inc/option-themes/OP_profile/02-media.php:216
@@ -56,10 +106,23 @@ msgstr ""
 msgid "Avatar"
 msgstr "Avatar"
 
+#. SLUG_SECTION
+#: inc/option-themes/OP_theme/03-home.php:106
+msgid "Bannière"
+msgstr ""
+"Banner\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:141
 msgid "Behance"
 msgstr "Behance"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:113
+#: inc/option-themes/OP_theme/03-home.php:193
+msgid "Cacher la section"
+msgstr ""
+"Hide section\n"
 
 #: inc/option-themes/OP_theme/02-core.php:279
 msgid "Cacher la section réseaux sociaux de la sidebar"
@@ -71,11 +134,45 @@ msgid "Cacher la section utilisateur de la sidebar"
 msgstr ""
 "Hide the user section of the bar room\n"
 
+#. SLUG_SECTION
+#: inc/option-themes/OP_theme/03-home.php:249
+msgid "Call to action"
+msgstr "Call to action"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:117
+#: inc/option-themes/OP_theme/03-home.php:154
 msgid "Ce qui doit être présent"
 msgstr ""
 "What should be present\n"
+
+#: inc/option-themes/OP_theme/03-home.php:319
+msgid "Cette partie vous permet de gérer l'affichage de about"
+msgstr ""
+"This part allows you to manage the display of the about section\n"
+
+#: inc/option-themes/OP_theme/03-home.php:303
+msgid ""
+"Cette partie vous permet de gérer l'affichage de l'introduction / salutation"
+msgstr ""
+"This part allows you to manage the display of the introduction / greeting\n"
+
+#: inc/option-themes/OP_theme/03-home.php:295
+msgid "Cette partie vous permet de gérer l'affichage de la bannière"
+msgstr ""
+"This part allows you to manage the display of the banner\n"
+
+#: inc/option-themes/OP_theme/03-home.php:327
+msgid ""
+"Cette partie vous permet de gérer l'affichage desc call-to-action présent "
+"dans la section"
+msgstr ""
+"This part allows you to manage the display of the call-to-actions in the "
+"section"
+
+#: inc/option-themes/OP_theme/03-home.php:311
+msgid "Cette partie vous permet de gérer l'affichage du métier visé"
+msgstr "This part allows you to manage the display of the target job"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:124
@@ -101,6 +198,7 @@ msgstr ""
 "Choose the legal notice to display | Only if the legal part is checked\n"
 
 #: inc/option-themes/OP_theme/02-core.php:233
+#: inc/option-themes/OP_theme/03-home.php:511
 msgid "Cocher ce qui doit être présent"
 msgstr "Check what should be present"
 
@@ -108,9 +206,19 @@ msgstr "Check what should be present"
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr "Check and add the URL of your social networks"
 
+#. SLUG_FIELD
 #: inc/option-themes/OP_theme/01-customtheme.php:145
+#: inc/option-themes/OP_theme/03-home.php:270
 msgid "Contact"
 msgstr ""
+"Contact\n"
+
+#: template-parts/home/button/fr-btn.php:36
+#: template-parts/home/button/it-btn.php:36
+#: template-parts/home/button/en-btn.php:36
+msgid "Contactez-moi"
+msgstr ""
+"Contact me\n"
 
 #: template-parts/footer/legal.php:37 template-parts/footer/legal.php:41
 #: template-parts/footer/legal.php:45
@@ -138,6 +246,7 @@ msgstr ""
 #: inc/option-themes/OP_theme/01-customtheme.php:85
 msgid "Core"
 msgstr ""
+"Core\n"
 
 #: template-parts/footer/copyright.php:15
 msgid "Created by"
@@ -171,6 +280,15 @@ msgstr ""
 msgid "Date de naissance"
 msgstr "Date of birth"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:263
+#: template-parts/home/button/fr-btn.php:27
+#: template-parts/home/button/it-btn.php:27
+#: template-parts/home/button/en-btn.php:27
+msgid "Download CV"
+msgstr ""
+"Download CV\n"
+
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:105
 msgid "Détails personnels"
@@ -189,6 +307,30 @@ msgstr "Enza Lombardo"
 #: inc/option-themes/OP_profile/03-network.php:109
 msgid "Facebook"
 msgstr "Facebook"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:147
+msgid "Format"
+msgstr ""
+"Format\n"
+
+#: inc/option-themes/OP_theme/03-home.php:406
+#: inc/option-themes/OP_theme/03-home.php:541
+#: inc/option-themes/OP_theme/03-home.php:582
+msgid "Francais"
+msgstr ""
+"French\n"
+
+#: inc/option-themes/OP_theme/03-home.php:441
+msgid "Français"
+msgstr ""
+"French\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:228
+msgid "Gestion"
+msgstr ""
+"Management\n"
 
 #: inc/option-themes/OP_profile/05-curriculum.php:189
 #: inc/option-themes/OP_profile/04-aboutme.php:216
@@ -234,13 +376,23 @@ msgid "Gérer le header"
 msgstr ""
 "Manage header\n"
 
+#. slug parent
+#. page_title
 #: inc/option-themes/OP_theme/01-customtheme.php:100
+#: inc/option-themes/OP_theme/03-home.php:60
+#: inc/option-themes/OP_theme/03-home.php:61
 msgid "Home"
 msgstr "Home"
 
 #. Author URI of the theme
 msgid "http://www.enzalombardo.be"
 msgstr "http://www.enzalombardo.be"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:120
+msgid "Image en arrière plan"
+msgstr ""
+"Background image\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/05-curriculum.php:110
@@ -255,7 +407,23 @@ msgstr ""
 msgid "Instagram"
 msgstr "Instagram"
 
+#. SLUG_SECTION
+#: inc/option-themes/OP_theme/03-home.php:140
+msgid "Intro"
+msgstr ""
+"Intro\n"
+
+#: inc/option-themes/OP_theme/03-home.php:424
+#: inc/option-themes/OP_theme/03-home.php:483
+#: inc/option-themes/OP_theme/03-home.php:561
+#: inc/option-themes/OP_theme/03-home.php:604
+msgid "Italien"
+msgstr ""
+"Italian\n"
+
+#. SLUG_SECTION
 #: inc/option-themes/OP_theme/02-core.php:245
+#: inc/option-themes/OP_theme/03-home.php:186
 msgid "Job"
 msgstr "Job"
 
@@ -267,6 +435,7 @@ msgstr ""
 #: inc/option-themes/OP_theme/01-customtheme.php:92
 msgid "Lien pour gérer l'affichage de l'header et du footer"
 msgstr ""
+"Link to manage the header and footer display\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:167
 msgid "Lien pour gérer l'affichage de la page d'erreur"
@@ -276,21 +445,37 @@ msgstr ""
 #: inc/option-themes/OP_theme/01-customtheme.php:152
 msgid "Lien pour gérer la section contact"
 msgstr ""
+"Link to manage the contact section\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:107
-#, fuzzy
 #| msgid "Lien pour gérer l'affichage de l'home"
 msgid "Lien pour gérer la section de l'home"
 msgstr ""
-"Link to manage the \"home\" section\n"
+"Link to manage the home section\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:122
 msgid "Lien pour gérer la section l'about"
 msgstr ""
+"Link to manage the about section\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:137
 msgid "Lien pour gérer la section portfolio"
 msgstr ""
+"Link to manage the portfolio section\n"
+
+#: inc/option-themes/OP_theme/03-home.php:443
+#: inc/option-themes/OP_theme/03-home.php:464
+#: inc/option-themes/OP_theme/03-home.php:485
+msgid "Ligne 1"
+msgstr ""
+"Line 1\n"
+
+#: inc/option-themes/OP_theme/03-home.php:452
+#: inc/option-themes/OP_theme/03-home.php:473
+#: inc/option-themes/OP_theme/03-home.php:494
+msgid "Ligne 2"
+msgstr ""
+"Line 2\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:133
@@ -318,6 +503,16 @@ msgstr ""
 msgid "Ma photo de profile"
 msgstr ""
 "My profile picture\n"
+
+#: inc/option-themes/OP_theme/03-home.php:360
+msgid "Masquer la section home du thème"
+msgstr ""
+"Hide theme home section\n"
+
+#: inc/option-themes/OP_theme/03-home.php:530
+msgid "Masquer le poste visé"
+msgstr ""
+"Hide target post\n"
 
 #: template-parts/footer/legal.php:18 template-parts/footer/legal.php:22
 #: template-parts/footer/legal.php:26
@@ -359,6 +554,18 @@ msgstr "My networks"
 msgid "Mes réseaux sociaux"
 msgstr "My social networks"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/03-home.php:200
+msgid "Message"
+msgstr ""
+"Message\n"
+
+#: inc/option-themes/OP_theme/03-home.php:589
+#: inc/option-themes/OP_theme/03-home.php:600
+#: inc/option-themes/OP_theme/03-home.php:611
+msgid "Modifier le texte \"Parler de sois\""
+msgstr "Edit the \"Tell me about yourself\" text"
+
 #: inc/option-themes/OP_profile/02-media.php:231
 #: inc/option-themes/OP_profile/02-media.php:235
 msgid "Mon logo"
@@ -389,6 +596,7 @@ msgstr "MyPortfolio"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:258
 #: inc/option-themes/OP_theme/02-core.php:237
+#: inc/option-themes/OP_theme/03-home.php:515
 msgid "Nom"
 msgstr ""
 "Name\n"
@@ -422,6 +630,11 @@ msgid "Partie légale"
 msgstr ""
 "Legal section\n"
 
+#: inc/option-themes/OP_theme/03-home.php:74
+msgid "Personnaliser l'accueil"
+msgstr ""
+"Customise the welcome\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/04-aboutme.php:111
 #: inc/option-themes/OP_profile/04-aboutme.php:147
@@ -453,6 +666,7 @@ msgstr ""
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:265
 #: inc/option-themes/OP_theme/02-core.php:241
+#: inc/option-themes/OP_theme/03-home.php:519
 msgid "Prénom"
 msgstr "First name"
 
@@ -473,6 +687,31 @@ msgstr ""
 msgid "Qui suis-je ? (en italien)"
 msgstr ""
 "Who am I (in Italian)\n"
+
+#: inc/option-themes/OP_theme/03-home.php:402
+msgid "Salutation en 1 ligne"
+msgstr ""
+"Greeting in 1 line\n"
+"\n"
+
+#: inc/option-themes/OP_theme/03-home.php:437
+msgid "Salutation en 2 lignes"
+msgstr "Greeting in 2 line"
+
+#: inc/option-themes/OP_theme/03-home.php:420
+msgid "Salutation en anglais"
+msgstr ""
+"Greeting in English\n"
+
+#: inc/option-themes/OP_theme/03-home.php:411
+msgid "Salutation en français"
+msgstr ""
+"Greeting in French\n"
+
+#: inc/option-themes/OP_theme/03-home.php:429
+msgid "Salutation en italien"
+msgstr ""
+"Greeting in Italian\n"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:223
 msgid "Section dédiée aux informations de contact"
@@ -523,6 +762,10 @@ msgstr "User section"
 msgid "Site Web"
 msgstr "Website"
 
+#: inc/option-themes/OP_theme/03-home.php:76
+msgid "Sur cette page vous pouvez gérer la section accueil du site"
+msgstr "On this page you can manage the home section of the site"
+
 #: inc/option-themes/OP_profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents média de votre portfolio"
@@ -548,6 +791,27 @@ msgstr "On this page you can manage the import of your CV"
 #: inc/option-themes/OP_profile/04-aboutme.php:73
 msgid "Sur cette page, vous pouvez parler de vous"
 msgstr "On this page you can talk about yourself"
+
+#: inc/option-themes/OP_theme/03-home.php:469
+#: inc/option-themes/OP_theme/03-home.php:478
+#: inc/option-themes/OP_theme/03-home.php:556
+msgid "Texte en anglais"
+msgstr ""
+"Text in English\n"
+
+#: inc/option-themes/OP_theme/03-home.php:448
+#: inc/option-themes/OP_theme/03-home.php:457
+#: inc/option-themes/OP_theme/03-home.php:546
+msgid "Texte en français"
+msgstr ""
+"Text in French\n"
+
+#: inc/option-themes/OP_theme/03-home.php:490
+#: inc/option-themes/OP_theme/03-home.php:499
+#: inc/option-themes/OP_theme/03-home.php:566
+msgid "Texte en italien"
+msgstr ""
+"Text in Italian\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:195
@@ -591,6 +855,10 @@ msgstr ""
 msgid "Uniquement le copyright"
 msgstr ""
 "Only copyright\n"
+
+#: inc/option-themes/OP_theme/03-home.php:538
+msgid "Uniquement si la section est visible"
+msgstr "Only if the section is visible"
 
 #: inc/option-themes/OP_theme/02-core.php:257
 msgid "Uniquement si photo est chocher"

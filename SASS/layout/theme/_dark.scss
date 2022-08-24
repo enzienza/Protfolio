@@ -76,6 +76,16 @@ body.dark{
         }
     }
 
+    // COUNTER
+    .counter{
+        &-box {
+            background: rgba(0, 0, 0, 0.3);
+            text-shadow: 4px 2px 4px rgba(9, 9, 9, 0.9);
+        }
+        &-numb{
+            color: $color-primary;
+        }
+    }
     // TABS
     .nav-tabs {
         .nav-link {
