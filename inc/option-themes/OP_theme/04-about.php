@@ -130,7 +130,7 @@ class mycustome_about{
 
         // 3. Sauvegarder les champs
         register_setting(self::SUB_GROUP, 'about_hidden_section');
-//      // title
+       // title
         register_setting(self::SUB_GROUP, 'about_title_fr');
         register_setting(self::SUB_GROUP, 'about_title_en');
         register_setting(self::SUB_GROUP, 'about_title_it');

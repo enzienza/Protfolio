@@ -312,8 +312,12 @@ input[type="checkbox"]{
 }
 
 
-.grid-box input[type="text"] {
+.grid-box input[type="text"], .grid-box textarea {
     width: 100%;
+}
+
+.grid-box textarea{
+    min-height: 7rem;
 }
 
 .wp-admin {

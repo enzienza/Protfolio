@@ -129,7 +129,7 @@ class myportfolio_mycustome{
                 <td class="import-system">
                     <span class="importer-title"><?php _e('Portfolio', "MyPortfolio")?></span>
                     <span class="importer-action">
-                      <a href="?page=" class="install-now"><?php _e("Gérer la section", "MyPortfolio"); ?></a>
+                      <a href="?page=mycustome_portfolio" class="install-now"><?php _e("Gérer la section", "MyPortfolio"); ?></a>
                     </span>
                 </td>
                 <td class="desc">
