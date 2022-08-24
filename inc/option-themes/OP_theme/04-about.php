@@ -324,7 +324,7 @@ class mycustome_about{
                        id="about_title_fr"
                        name="about_title_fr"
                        value="<?php echo $about_title_fr ?>"
-                       placeholder="<?php _e('Text en français', 'MyPortfolio'); ?>"
+                       placeholder="<?php _e('Texte en français', 'MyPortfolio'); ?>"
                 />
             </div>
             <div class="grid-box">
@@ -333,7 +333,7 @@ class mycustome_about{
                        id="about_title_en"
                        name="about_title_en"
                        value="<?php echo $about_title_en ?>"
-                       placeholder="<?php _e('Text en anglais', 'MyPortfolio'); ?>"
+                       placeholder="<?php _e('Texte en anglais', 'MyPortfolio'); ?>"
                 />
             </div>
             <div class="grid-box">
@@ -342,7 +342,7 @@ class mycustome_about{
                        id="about_title_it"
                        name="about_title_it"
                        value="<?php echo $about_title_it ?>"
-                       placeholder="<?php _e('Text en italien', 'MyPortfolio'); ?>"
+                       placeholder="<?php _e('Texte en italien', 'MyPortfolio'); ?>"
                 />
             </div>
         </div>
@@ -515,7 +515,7 @@ class mycustome_about{
                     <p class="general-item">
                         <span class="w-10">
                             <input type="checkbox" id="about_years_experience" name="about_years_experience" value="1" <?php checked(1, $about_years_experience, true); ?>  />
-                            <label for=""><?php _e("Année d'expérience", "MyPortfolio"); ?></label>
+                            <label for=""><?php _e("Années d'expérience", "MyPortfolio"); ?></label>
                         </span>
                         <input type="date" class="small-input" id="years_experience" name="years_experience" min="2012-01-01" value="<?php echo $years_experience ?>" />
                     </p>
@@ -529,7 +529,7 @@ class mycustome_about{
                     <p class="general-item">
                         <span class="w-10">
                             <input type="checkbox" id="about_languanges" name="about_languanges" value="1" <?php checked(1, $about_languanges, true); ?>  />
-                            <label for=""><?php _e("Languages maitrisé", "MyPortfolio"); ?></label>
+                            <label for=""><?php _e("Langages maitrisé", "MyPortfolio"); ?></label>
                         </span>
                         <input type="number" class="small-input" id="numb_languanges" name="numb_languanges" min="1" max="100" value="<?php echo $numb_languanges ?>" />
                     </p>

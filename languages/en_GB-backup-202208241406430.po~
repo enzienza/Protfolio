@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-24 14:06+0000\n"
+"PO-Revision-Date: 2022-08-23 22:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -50,22 +50,16 @@ msgstr "About me"
 #: inc/option-themes/OP_theme/04-about.php:365
 msgid "Afficher \"Détails perso\""
 msgstr ""
-"Show \"Personal details\".\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:361
 msgid "Afficher \"Qui suis-je\""
 msgstr ""
-"Show \"Who I am\" icon\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:597
 #: inc/option-themes/OP_theme/04-about.php:613
 #: inc/option-themes/OP_theme/04-about.php:629
 msgid "Afficher l'icône"
 msgstr ""
-"Show icon\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:630
 #: inc/option-themes/OP_theme/03-home.php:646
@@ -77,8 +71,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:380
 msgid "Afficher le \"Counter\""
 msgstr ""
-"Show the \"counter\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:593
 #: inc/option-themes/OP_theme/04-about.php:609
@@ -92,19 +84,15 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/04-about.php:384
 msgid "Afficher les deux (Photo & Counter)"
-msgstr "Show both (Photo & Counter)"
+msgstr ""
 
 #: inc/option-themes/OP_theme/04-about.php:369
 msgid "Afficher les deux (Qui suis-je & Détails perso)"
 msgstr ""
-"Show both (Who I am & Personal details)\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:376
 msgid "Afficher une photo"
 msgstr ""
-"Show photo\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:585
 #: inc/option-themes/OP_theme/03-home.php:596
@@ -147,14 +135,10 @@ msgstr ""
 #: template-parts/about/complementary/info.php:22
 msgid "Années d'experience"
 msgstr ""
-"Years of experience\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:518
 msgid "Années d'expérience"
 msgstr ""
-"Years of experience\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:372
 msgid "Aperçu :"
@@ -188,7 +172,7 @@ msgstr "Behance"
 #: template-parts/about/details/en-list.php:39
 #: template-parts/about/details/fr-list.php:39
 msgid "Belgique"
-msgstr "Belgium"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/04-about.php:111
@@ -240,13 +224,10 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:273
 msgid "Cette partie vous permet de gérer l'affichage de la section"
 msgstr ""
-"This part allows you to manage the display of the section\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:281
 msgid "Cette partie vous permet de gérer l'affichage des informations"
 msgstr ""
-"This part allows you to manage the display of the information\n"
 
 #: inc/option-themes/OP_theme/04-about.php:289
 #: inc/option-themes/OP_theme/03-home.php:327
@@ -272,8 +253,6 @@ msgid ""
 "Choisir la photo à afficher | <span class='underline-700'>Important</span>"
 "Uniquement si <strong>Photo</strong> est cocher"
 msgstr ""
-"Choose the photo to display | <span class='underline-700'>Important</span> "
-"Only if <strong>Photo</strong> is checked\n"
 
 #: inc/option-themes/OP_theme/02-core.php:302
 msgid "Choisir le format du copyright à afficher"
@@ -294,29 +273,22 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/04-about.php:355
 msgid "Choisir les éléments à afficher"
-msgstr "Choose the elements to display"
+msgstr ""
 
 #: inc/option-themes/OP_theme/04-about.php:423
 msgid ""
 "Choisir quel message afficher | <span class='underline-700'>Important</span>"
 "Uniquement si <strong>Qui suis-je</strong> est cocher"
 msgstr ""
-"Choose which message to display | <span class='underline-700'>"
-"Important</span> Only if <strong>Who I am</strong> is checked"
 
 #: inc/option-themes/OP_theme/04-about.php:567
 msgid "Clients"
 msgstr ""
-"Customers\n"
-"\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:575
 #: template-parts/about/complementary/info.php:85
 msgid "Clients satisfaits"
 msgstr ""
-"Satisfied customers\n"
-"\n"
 
 #: inc/option-themes/OP_theme/02-core.php:233
 #: inc/option-themes/OP_theme/03-home.php:511
@@ -328,16 +300,12 @@ msgid ""
 "Cocher ce qui doit être présent | <span class='underline-700'>"
 "Important</span>Uniquement si <strong>détails perso</strong> est cocher"
 msgstr ""
-"Check what should be displayed | <span class='underline-700'>Important</span>"
-" Only if <strong>Personal details</strong> is checked"
 
 #: inc/option-themes/OP_theme/04-about.php:509
 msgid ""
 "Cocher ce qui doit être présent | <span class='underline-700'>"
 "Important</span>Uniquement si <strong>Info Complémentaire</strong> est cocher"
 msgstr ""
-"Check what should be present | <span class='underline-700'>Important</span> "
-"Only if <strong>Additional Information</strong> is checked"
 
 #: inc/option-themes/OP_profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
@@ -425,8 +393,6 @@ msgstr "Date of birth"
 #: inc/option-themes/OP_theme/04-about.php:158
 msgid "Details personnel"
 msgstr ""
-"Personal details\n"
-"\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/04-about.php:232
@@ -445,15 +411,10 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:125
 msgid "Définir le design"
 msgstr ""
-"Define the design\n"
-"\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:319
 msgid "Définir le titre de la section"
 msgstr ""
-"Define the title of the section\n"
-"\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:105
@@ -486,8 +447,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:525
 msgid "Formation réalisé"
 msgstr ""
-"Training carried out\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:406
 msgid "Francais"
@@ -536,8 +495,6 @@ msgstr "GitHub"
 #: inc/option-themes/OP_theme/04-about.php:513
 msgid "Général"
 msgstr ""
-"General\n"
-"\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:87
 #: inc/option-themes/OP_theme/01-customtheme.php:102
@@ -563,7 +520,7 @@ msgstr ""
 #. SLUG_SECTION
 #: inc/option-themes/OP_theme/04-about.php:151
 msgid "Gérer les éléments"
-msgstr "Manage elements"
+msgstr ""
 
 #. slug parent
 #. page_title
@@ -595,8 +552,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:179
 msgid "Info supplémentaire"
 msgstr ""
-"Additional information\n"
-"\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:125
@@ -634,14 +589,10 @@ msgstr ""
 #: template-parts/about/complementary/info.php:36
 msgid "Langage web"
 msgstr ""
-"Web language\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:532
 msgid "Langages maitrisé"
 msgstr ""
-"Languages mastered\n"
-"\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:92
 msgid "Lien pour gérer l'affichage de l'header et du footer"
@@ -721,8 +672,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:311
 msgid "Masquer la section about du thème"
 msgstr ""
-"Hide the section about the theme\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:360
 msgid "Masquer la section home du thème"
@@ -746,8 +695,6 @@ msgstr ""
 #: template-parts/about/button/en-btn.php:37
 msgid "Mes compétences"
 msgstr ""
-"My skills\n"
-"\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/01-personalDetails.php:142
@@ -791,12 +738,10 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:427
 msgid "Message court"
 msgstr ""
-"Short message\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:450
 msgid "Message long"
-msgstr "Long message"
+msgstr ""
 
 #: inc/option-themes/OP_theme/03-home.php:589
 #: inc/option-themes/OP_theme/03-home.php:600
@@ -808,8 +753,6 @@ msgstr "Edit the \"Tell me about yourself\" text"
 #: inc/option-themes/OP_theme/04-about.php:467
 msgid "Modifier les textes \"Parler de sois\""
 msgstr ""
-"Modify the \"Talking about yourself\" texts\n"
-"\n"
 
 #: inc/option-themes/OP_profile/02-media.php:231
 #: inc/option-themes/OP_profile/02-media.php:235
@@ -842,8 +785,6 @@ msgstr "MyPortfolio"
 #: inc/option-themes/OP_theme/04-about.php:414
 msgid "Métier visé"
 msgstr ""
-"Targeted job\n"
-"\n"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:258
 #: inc/option-themes/OP_theme/02-core.php:237
@@ -865,7 +806,6 @@ msgstr ""
 #: template-parts/about/complementary/info.php:29
 msgid "Nombre de formation"
 msgstr ""
-"Number of courses\n"
 
 #: inc/option-themes/OP_theme/01-customtheme.php:160
 msgid "Page d'erreur"
@@ -887,14 +827,10 @@ msgstr "Talk about yourself"
 #: inc/option-themes/OP_theme/04-about.php:373
 msgid "Partie de droite"
 msgstr ""
-"Right part\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:358
 msgid "Partie de gauche"
 msgstr ""
-"Left side\n"
-"\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:178
@@ -904,7 +840,7 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/04-about.php:72
 msgid "Personnaliser l'about"
-msgstr "Personalize about"
+msgstr ""
 
 #: inc/option-themes/OP_theme/03-home.php:74
 msgid "Personnaliser l'accueil"
@@ -948,51 +884,37 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:484
 msgid "Profile"
 msgstr ""
-"Profile\n"
-"\n"
 
 #: template-parts/about/complementary/info.php:78
 msgid "Projet clients"
 msgstr ""
-"Customer project\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:571
 msgid "Projet clients (réel)"
 msgstr ""
-"Customer project (real)\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:562
 #: template-parts/about/complementary/info.php:71
 msgid "Projet graphique"
 msgstr ""
-"Graphic project\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:558
 #: template-parts/about/complementary/info.php:64
 msgid "Projet prototypage"
 msgstr ""
-"Prototyping project\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:554
 #: template-parts/about/complementary/info.php:57
 msgid "Projet web"
 msgstr ""
-"Web project\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:546
 msgid "Projets"
-msgstr "Projects"
+msgstr ""
 
 #: template-parts/about/complementary/info.php:50
 msgid "Projets achevés"
 msgstr ""
-"Completed projects\n"
-"\n"
 
 #: inc/option-themes/OP_profile/01-personalDetails.php:265
 #: inc/option-themes/OP_theme/02-core.php:241
@@ -1004,8 +926,6 @@ msgstr "First name"
 #: inc/option-themes/OP_theme/04-about.php:165
 msgid "Qui suis-je"
 msgstr ""
-"Who I am\n"
-"\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_profile/04-aboutme.php:139
@@ -1029,8 +949,6 @@ msgstr ""
 #: template-parts/about/complementary/info.php:43
 msgid "Repositories GitHub"
 msgstr ""
-"Repositories GitHub\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:402
 msgid "Salutation en 1 ligne"
@@ -1110,14 +1028,10 @@ msgstr "Website"
 #: inc/option-themes/OP_theme/04-about.php:246
 msgid "Skill"
 msgstr ""
-"Competence\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:74
 msgid "Sur cette page vous pouvez gérer la section about du site"
 msgstr ""
-"On this page you can manage the section about the site\n"
-"\n"
 
 #: inc/option-themes/OP_theme/03-home.php:76
 msgid "Sur cette page vous pouvez gérer la section accueil du site"
@@ -1198,12 +1112,10 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:118
 msgid "Titre section"
 msgstr ""
-"Section title\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:550
 msgid "Tous les projets"
-msgstr "All projects"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:117
@@ -1237,7 +1149,7 @@ msgstr "Only if the photo is checked"
 
 #: inc/option-themes/OP_theme/04-about.php:410
 msgid "Ville"
-msgstr "City"
+msgstr ""
 
 #: inc/option-themes/OP_profile/04-aboutme.php:71
 msgid "À propos de moi"
@@ -1249,4 +1161,3 @@ msgstr "About me"
 #: template-parts/about/details/fr-list.php:25
 msgid "Âge"
 msgstr ""
-"Age\n"

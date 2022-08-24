@@ -33,7 +33,7 @@
     <?php if(checked(1, get_option('about_languanges'), false)) : ?>
         <div class="counter-box">
             <p class="counter-numb"><?php echo get_option('numb_languanges'); ?></p>
-            <p class="counter-title"><?php _e('Language web', "MyPortfolio"); ?></p>
+            <p class="counter-title"><?php _e('Langage web', "MyPortfolio"); ?></p>
         </div>
     <?php endif; ?>
 
@@ -68,14 +68,14 @@
     <?php if(checked(1, get_option('about_graph_project'), false)) : ?>
         <div class="counter-box">
             <p class="counter-numb">7</p>
-            <p class="counter-title"><?php _e('Projet Graphique', "MyPortfolio"); ?></p>
+            <p class="counter-title"><?php _e('Projet graphique', "MyPortfolio"); ?></p>
         </div>
     <?php endif; ?>
 
     <?php if(checked(1, get_option('about_real_client'), false)) : ?>
         <div class="counter-box">
             <p class="counter-numb">7</p>
-            <p class="counter-title"><?php _e('Projet Clients', "MyPortfolio"); ?></p>
+            <p class="counter-title"><?php _e('Projet clients', "MyPortfolio"); ?></p>
         </div>
     <?php endif; ?>
 
