@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-23 22:56+0000\n"
+"PO-Revision-Date: 2022-08-25 15:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -63,6 +63,10 @@ msgid "Afficher l'icône"
 msgstr ""
 "Afficher l'icône\n"
 
+#: inc/option-themes/OP_theme/05-portfolio.php:290
+msgid "Afficher l'émoji"
+msgstr "Afficher l'émoji"
+
 #: inc/option-themes/OP_theme/03-home.php:630
 #: inc/option-themes/OP_theme/03-home.php:646
 #: inc/option-themes/OP_theme/03-home.php:662
@@ -92,6 +96,10 @@ msgstr "Afficher les deux (Photo & Compteur)"
 msgid "Afficher les deux (Qui suis-je & Détails perso)"
 msgstr ""
 "Afficher les deux (Qui suis-je & Détails personnel)\n"
+
+#: inc/option-themes/OP_theme/05-portfolio.php:266
+msgid "Afficher une description à la section"
+msgstr "Afficher une description à la section"
 
 #: inc/option-themes/OP_theme/04-about.php:376
 msgid "Afficher une photo"
@@ -130,6 +138,9 @@ msgstr "Tous les droits sont réservés"
 #: inc/option-themes/OP_theme/03-home.php:462
 #: inc/option-themes/OP_theme/03-home.php:551
 #: inc/option-themes/OP_theme/03-home.php:593
+#: inc/option-themes/OP_theme/05-portfolio.php:237
+#: inc/option-themes/OP_theme/05-portfolio.php:274
+#: inc/option-themes/OP_theme/05-portfolio.php:310
 msgid "Anglais"
 msgstr "Anglais"
 
@@ -178,6 +189,7 @@ msgstr ""
 #: inc/option-themes/OP_theme/04-about.php:111
 #: inc/option-themes/OP_theme/03-home.php:113
 #: inc/option-themes/OP_theme/03-home.php:193
+#: inc/option-themes/OP_theme/05-portfolio.php:110
 msgid "Cacher la section"
 msgstr "Cacher la section"
 
@@ -194,6 +206,10 @@ msgstr "Cacher la section utilisateur de la salle bar"
 #: inc/option-themes/OP_theme/03-home.php:249
 msgid "Call to action"
 msgstr "Call to action"
+
+#: inc/option-themes/OP_theme/05-portfolio.php:298
+msgid "Ce message sera présent si la boucle est vide"
+msgstr "Ce message sera présent si la boucle est vide"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:117
@@ -220,6 +236,7 @@ msgid "Cette partie vous permet de gérer l'affichage de la bannière"
 msgstr "Cette partie vous permet de gérer l'affichage de la bannière"
 
 #: inc/option-themes/OP_theme/04-about.php:273
+#: inc/option-themes/OP_theme/05-portfolio.php:188
 msgid "Cette partie vous permet de gérer l'affichage de la section"
 msgstr ""
 "Cette partie vous permet de gérer l'affichage de la section\n"
@@ -242,6 +259,10 @@ msgstr ""
 #: inc/option-themes/OP_theme/03-home.php:311
 msgid "Cette partie vous permet de gérer l'affichage du métier visé"
 msgstr "Cette partie vous permet de gérer l'affichage du métier visé"
+
+#: inc/option-themes/OP_theme/05-portfolio.php:196
+msgid "Cette partie vous permet de gérer la boucle"
+msgstr "Cette partie vous permet de gérer la boucle"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/02-core.php:124
@@ -392,6 +413,11 @@ msgid "Date de naissance"
 msgstr "Date de naissance"
 
 #. SLUG_FIELD
+#: inc/option-themes/OP_theme/05-portfolio.php:124
+msgid "Description section"
+msgstr "Description section"
+
+#. SLUG_FIELD
 #: inc/option-themes/OP_theme/04-about.php:158
 msgid "Details personnel"
 msgstr "Détails personnel"
@@ -416,6 +442,7 @@ msgstr ""
 "\n"
 
 #: inc/option-themes/OP_theme/04-about.php:319
+#: inc/option-themes/OP_theme/05-portfolio.php:225
 msgid "Définir le titre de la section"
 msgstr ""
 "Définir le titre de la section\n"
@@ -465,6 +492,9 @@ msgstr "Français"
 #: inc/option-themes/OP_theme/03-home.php:441
 #: inc/option-themes/OP_theme/03-home.php:541
 #: inc/option-themes/OP_theme/03-home.php:582
+#: inc/option-themes/OP_theme/05-portfolio.php:228
+#: inc/option-themes/OP_theme/05-portfolio.php:270
+#: inc/option-themes/OP_theme/05-portfolio.php:301
 msgid "Français"
 msgstr "Français"
 
@@ -499,12 +529,19 @@ msgstr ""
 "Général\n"
 "\n"
 
+#. SLUG_SECTION
+#: inc/option-themes/OP_theme/05-portfolio.php:152
+msgid "Gérer la boucle"
+msgstr "Gérer la boucle"
+
+#. SLUG_SECTION
 #: inc/option-themes/OP_theme/01-customtheme.php:87
 #: inc/option-themes/OP_theme/01-customtheme.php:102
 #: inc/option-themes/OP_theme/01-customtheme.php:117
 #: inc/option-themes/OP_theme/01-customtheme.php:132
 #: inc/option-themes/OP_theme/01-customtheme.php:147
 #: inc/option-themes/OP_theme/01-customtheme.php:162
+#: inc/option-themes/OP_theme/05-portfolio.php:102
 msgid "Gérer la section"
 msgstr "Gérer la section"
 
@@ -575,6 +612,9 @@ msgstr ""
 #: inc/option-themes/OP_theme/03-home.php:483
 #: inc/option-themes/OP_theme/03-home.php:561
 #: inc/option-themes/OP_theme/03-home.php:604
+#: inc/option-themes/OP_theme/05-portfolio.php:246
+#: inc/option-themes/OP_theme/05-portfolio.php:278
+#: inc/option-themes/OP_theme/05-portfolio.php:319
 msgid "Italien"
 msgstr ""
 "Italien\n"
@@ -675,6 +715,10 @@ msgid "Masquer la section home du thème"
 msgstr ""
 "Masquer la section accueil du thème\n"
 
+#: inc/option-themes/OP_theme/05-portfolio.php:217
+msgid "Masquer la section portfolio du thème"
+msgstr "Masquer la section portfolio du thème"
+
 #: inc/option-themes/OP_theme/03-home.php:530
 msgid "Masquer le poste visé"
 msgstr ""
@@ -731,6 +775,11 @@ msgid "Message"
 msgstr ""
 "Message\n"
 "\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/05-portfolio.php:167
+msgid "Message boucle"
+msgstr "Message boucle"
 
 #: inc/option-themes/OP_theme/04-about.php:427
 msgid "Message court"
@@ -850,6 +899,10 @@ msgstr ""
 msgid "Personnaliser l'accueil"
 msgstr "Personnaliser l'accueil"
 
+#: inc/option-themes/OP_theme/05-portfolio.php:70
+msgid "Personnaliser portfolio"
+msgstr "Personnaliser portfolio"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/04-aboutme.php:111
 #: inc/option-themes/OP_profile/04-aboutme.php:147
@@ -863,7 +916,11 @@ msgstr "Petit intro"
 msgid "Photo"
 msgstr "Photo"
 
+#. slug parent
+#. page_title
 #: inc/option-themes/OP_theme/01-customtheme.php:130
+#: inc/option-themes/OP_theme/05-portfolio.php:56
+#: inc/option-themes/OP_theme/05-portfolio.php:57
 msgid "Portfolio"
 msgstr "Portfolio"
 
@@ -1045,6 +1102,10 @@ msgstr ""
 msgid "Sur cette page vous pouvez gérer la section accueil du site"
 msgstr "Sur cette page vous pouvez gérer la section accueil du site"
 
+#: inc/option-themes/OP_theme/05-portfolio.php:72
+msgid "Sur cette page vous pouvez gérer la section portfolio du site"
+msgstr "Sur cette page vous pouvez gérer la section portfolio du site"
+
 #: inc/option-themes/OP_profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents média de votre portfolio"
@@ -1076,6 +1137,9 @@ msgstr "Sur cette page, vous pouvez parler de vous"
 #: inc/option-themes/OP_theme/03-home.php:469
 #: inc/option-themes/OP_theme/03-home.php:478
 #: inc/option-themes/OP_theme/03-home.php:556
+#: inc/option-themes/OP_theme/05-portfolio.php:242
+#: inc/option-themes/OP_theme/05-portfolio.php:275
+#: inc/option-themes/OP_theme/05-portfolio.php:315
 msgid "Texte en anglais"
 msgstr "Texte en anglais"
 
@@ -1083,6 +1147,9 @@ msgstr "Texte en anglais"
 #: inc/option-themes/OP_theme/03-home.php:448
 #: inc/option-themes/OP_theme/03-home.php:457
 #: inc/option-themes/OP_theme/03-home.php:546
+#: inc/option-themes/OP_theme/05-portfolio.php:233
+#: inc/option-themes/OP_theme/05-portfolio.php:271
+#: inc/option-themes/OP_theme/05-portfolio.php:306
 msgid "Texte en français"
 msgstr ""
 "Texte en français\n"
@@ -1092,6 +1159,9 @@ msgstr ""
 #: inc/option-themes/OP_theme/03-home.php:490
 #: inc/option-themes/OP_theme/03-home.php:499
 #: inc/option-themes/OP_theme/03-home.php:566
+#: inc/option-themes/OP_theme/05-portfolio.php:251
+#: inc/option-themes/OP_theme/05-portfolio.php:279
+#: inc/option-themes/OP_theme/05-portfolio.php:324
 msgid "Texte en italien"
 msgstr ""
 "Texte en italien\n"
@@ -1116,6 +1186,7 @@ msgstr "Titre du poste en italien"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/04-about.php:118
+#: inc/option-themes/OP_theme/05-portfolio.php:117
 msgid "Titre section"
 msgstr ""
 "Titre section\n"
@@ -1170,3 +1241,8 @@ msgid "Âge"
 msgstr ""
 "Âge\n"
 "\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/05-portfolio.php:160
+msgid "Émoji"
+msgstr "Émoji"

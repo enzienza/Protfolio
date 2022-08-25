@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: desc
- * Description: show title on portfolio section
+ * Description: show description on portfolio section
  * Important : use hooks get_locale()
  *
  * @package WordPress
