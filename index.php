@@ -21,9 +21,11 @@
         <?php get_template_part('template-parts/about/index', 'about') ?>
     <?php endif; ?>
 
-    <div id="portfolio" class="my-container" style="height: 100vh">
-        <h1>Portfolio section</h1>
-    </div>
+    <?php if(checked(1, get_option('portfolio_hidden_section'), false)) : else : ?>
+        <?php get_template_part('template-parts/portfolio/index', 'portfolio') ?>
+    <?php endif; ?>
+
+
     <div id="contact" class="my-container" style="height: 100vh">
         <h1>Contact section</h1>
     </div>
