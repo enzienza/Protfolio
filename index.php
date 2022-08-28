@@ -14,15 +14,15 @@
 <?php get_template_part('template-parts/components/switch-mode') ?>
 
     <?php if(checked(1, get_option('hero_hidden_section'), false)) : else : ?>
-        <?php get_template_part('template-parts/home/index', 'home') ?>
+        <?php get_template_part('template-parts/section/home/index', 'home') ?>
     <?php endif; ?>
 
     <?php if(checked(1, get_option('about_hidden_section'), false)) : else : ?>
-        <?php get_template_part('template-parts/about/index', 'about') ?>
+        <?php get_template_part('template-parts/section/about/index', 'about') ?>
     <?php endif; ?>
 
     <?php if(checked(1, get_option('portfolio_hidden_section'), false)) : else : ?>
-        <?php get_template_part('template-parts/portfolio/index', 'portfolio') ?>
+        <?php get_template_part('template-parts/section/portfolio/index', 'portfolio') ?>
     <?php endif; ?>
 
 

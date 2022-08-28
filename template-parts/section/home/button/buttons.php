@@ -16,5 +16,5 @@
 <?php elseif(get_locale() === 'en_GB') : // Partie EN =========== ?>
     <?php require_once('en-btn.php'); ?>
 <?php elseif(get_locale() === 'it_IT') : // Partie IT =========== ?>
-    <?php require_once('it-btn.php') ;?>
+    <?php require_once('it-btn.php');?>
 <?php endif; ?>

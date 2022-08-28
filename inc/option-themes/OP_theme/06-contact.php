@@ -1,7 +1,7 @@
 <?php
 /**
- * Name file: 05-portfolio
- * Description: this file allows to manage display of the portfolio section
+ * Name file: 06-contact
+ * Description: this file allows to manage display of the contact section
  *
  * @package WordPress
  * @subpackage MyPortfolio

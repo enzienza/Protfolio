@@ -1,8 +1,8 @@
 <?php
 /**
- * Name file: buttons
- * Description: show buttons on about section
- * important : use hooks get_locale()
+ * Name file: desc
+ * Description: show lists for personal details on about section
+ * Important : use hooks get_locale()
  *
  * @package WordPress
  * @subpackage MyPortfolio
@@ -12,9 +12,9 @@
 
 
 <?php if(get_locale() === 'fr_FR') : // Partie FR =============== ?>
-    <?php require_once('fr-btn.php'); ?>
+    <?php require_once('fr-list.php'); ?>
 <?php elseif(get_locale() === 'en_GB') : // Partie EN =========== ?>
-    <?php require_once('en-btn.php'); ?>
+    <?php require_once('en-list.php'); ?>
 <?php elseif(get_locale() === 'it_IT') : // Partie IT =========== ?>
-    <?php require_once('it-btn.php') ;?>
+    <?php require_once('it-list.php');?>
 <?php endif; ?>
