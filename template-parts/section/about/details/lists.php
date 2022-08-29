@@ -1,7 +1,7 @@
 <?php
 /**
  * Name file: desc
- * Description: show description on about section
+ * Description: show lists for personal details on about section
  * Important : use hooks get_locale()
  *
  * @package WordPress
@@ -12,9 +12,9 @@
 
 
 <?php if(get_locale() === 'fr_FR') : // Partie FR =============== ?>
-    <?php require_once('fr-desc.php'); ?>
+    <?php require_once('fr-list.php'); ?>
 <?php elseif(get_locale() === 'en_GB') : // Partie EN =========== ?>
-    <?php require_once('en-desc.php'); ?>
+    <?php require_once('en-list.php'); ?>
 <?php elseif(get_locale() === 'it_IT') : // Partie IT =========== ?>
-    <?php require_once('it-desc.php') ;?>
+    <?php require_once('it-list.php');?>
 <?php endif; ?>

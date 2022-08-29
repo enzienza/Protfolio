@@ -1,7 +1,7 @@
 <?php
 /**
- * Name file: contents
- * Description: show content on home section
+ * Name file: desc
+ * Description: show description on about section
  * Important : use hooks get_locale()
  *
  * @package WordPress
@@ -12,9 +12,9 @@
 
 
 <?php if(get_locale() === 'fr_FR') : // Partie FR =============== ?>
-    <?php require_once('fr-content.php'); ?>
+    <?php require_once('fr-desc.php'); ?>
 <?php elseif(get_locale() === 'en_GB') : // Partie EN =========== ?>
-    <?php require_once('en-content.php'); ?>
+    <?php require_once('en-desc.php'); ?>
 <?php elseif(get_locale() === 'it_IT') : // Partie IT =========== ?>
-    <?php require_once('it-content.php') ;?>
+    <?php require_once('it-desc.php');?>
 <?php endif; ?>

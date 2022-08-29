@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-29 17:35+0000\n"
+"PO-Revision-Date: 2022-08-29 17:28+0000\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -18,7 +18,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/06-contact.php:245
 msgid " Afficher les réseaux sociaux dans la section contact"
 msgstr ""
-"Visualizzare i social network nella sezione contatti\n"
 
 #: inc/option-themes/OP_theme/02-core.php:305
 msgid "\"name-Theme\" © 2022 | Created by Enza Lombardo"
@@ -991,8 +990,6 @@ msgstr ""
 #: inc/option-themes/OP_theme/06-contact.php:69
 msgid "Personnaliser contact"
 msgstr ""
-"Personalizzare il contatto\n"
-"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:72
 msgid "Personnaliser l'about"
@@ -1135,7 +1132,6 @@ msgstr "Repositories GitHub"
 #: inc/option-themes/OP_theme/06-contact.php:129
 msgid "Réseaux sociaux"
 msgstr ""
-"Reti sociali\n"
 
 #: inc/option-themes/OP_theme/03-home.php:402
 msgid "Salutation en 1 ligne"
@@ -1229,7 +1225,7 @@ msgstr ""
 
 #: inc/option-themes/OP_theme/06-contact.php:71
 msgid "Sur cette page vous pouvez gérer la section contact du site"
-msgstr "In questa pagina è possibile gestire la sezione contatti del sito"
+msgstr ""
 
 #: inc/option-themes/OP_theme/05-portfolio.php:72
 msgid "Sur cette page vous pouvez gérer la section portfolio du site"

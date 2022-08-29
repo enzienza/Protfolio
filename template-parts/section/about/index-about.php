@@ -11,7 +11,7 @@
 
 <div id="about" class="my-container">
     <div class="title-section">
-        <?php require_once ("title/title.php")?>
+        <?php require_once("title/title.php") ?>
     </div>
     <?php if(checked(3, get_option('about_right_design'), false)) : ?>
     <div class="about-flex">
@@ -30,31 +30,31 @@
              */
             ?>
             <?php if(checked(1, get_option('about_left_design'), false)) : ?>
-                <?php require_once ("description/desc.php")?>
+                <?php require_once("description/desc.php") ?>
             <?php elseif(checked(2, get_option('about_left_design'), false)): ?>
-                <?php require_once ("details/lists.php"); ?>
+                <?php require_once("details/lists.php"); ?>
             <?php elseif(checked(3, get_option('about_left_design'), false)): ?>
-                <?php require_once ("description/desc.php")?>
-                <?php require_once ("details/lists.php"); ?>
+                <?php require_once("description/desc.php") ?>
+                <?php require_once("details/lists.php"); ?>
             <?php endif; ?>
             <?php require_once("button/buttons.php"); ?>
         </div>
 
         <?php if(checked(1, get_option('about_right_design'), false)) : ?>
             <div class="about-image">
-                <?php require_once ("picture/image.php"); ?>
+                <?php require_once("picture/image.php"); ?>
             </div>
         <?php elseif(checked(2, get_option('about_right_design'), false)) : ?>
             <div class="about-counter">
-                <?php require_once ("complementary/info.php"); ?>
+                <?php require_once("complementary/info.php"); ?>
             </div>
 
         <?php elseif(checked(3, get_option('about_right_design'), false)) : ?>
             <div class="about-image w-half">
-                <?php require_once ("picture/image.php"); ?>
+                <?php require_once("picture/image.php"); ?>
             </div>
             <div class="about-counter w-full" >
-                <?php require_once ("complementary/info.php"); ?>
+                <?php require_once("complementary/info.php"); ?>
             </div>
         <?php endif; ?>
 
