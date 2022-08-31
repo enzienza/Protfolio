@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: MyPortfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-23 13:03+0000\n"
-"PO-Revision-Date: 2022-08-29 17:32+0000\n"
+"PO-Revision-Date: 2022-08-31 14:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyPortfolio"
 
 #: inc/option-themes/OP_theme/06-contact.php:245
@@ -153,6 +153,8 @@ msgstr ""
 msgid "All rights reserved"
 msgstr "All rights reserved"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:234
+#: inc/option-themes/OP_theme/07-errorpage.php:266
 #: inc/option-themes/OP_theme/06-contact.php:195
 #: inc/option-themes/OP_theme/06-contact.php:231
 #: inc/option-themes/OP_theme/04-about.php:331
@@ -215,6 +217,12 @@ msgstr "Behance"
 msgid "Belgique"
 msgstr "Belgium"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:206
+msgid "Button page d'accueil"
+msgstr ""
+"Homepage button\n"
+"\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/06-contact.php:108
 #: inc/option-themes/OP_theme/04-about.php:111
@@ -247,6 +255,7 @@ msgstr ""
 "This message will be present if the loop is empty\n"
 
 #. SLUG_FIELD
+#: inc/option-themes/OP_theme/07-errorpage.php:109
 #: inc/option-themes/OP_theme/02-core.php:117
 #: inc/option-themes/OP_theme/03-home.php:154
 msgid "Ce qui doit être présent"
@@ -281,6 +290,23 @@ msgstr ""
 msgid "Cette partie vous permet de gérer l'affichage des informations"
 msgstr ""
 "This part allows you to manage the display of the information\n"
+
+#: inc/option-themes/OP_theme/07-errorpage.php:185
+msgid ""
+"Cette partie vous permet de gérer l'affichage des messages présent dans la "
+"section"
+msgstr ""
+"This part allows you to manage the display of the messages in the section\n"
+"\n"
+
+#: inc/option-themes/OP_theme/07-errorpage.php:177
+msgid ""
+"Cette partie vous permet de gérer l'affichage des éléments présent dans la "
+"section"
+msgstr ""
+"This part allows you to manage the display of the elements present in the "
+"section\n"
+"\n"
 
 #: inc/option-themes/OP_theme/04-about.php:289
 #: inc/option-themes/OP_theme/03-home.php:327
@@ -358,6 +384,7 @@ msgstr ""
 "Satisfied customers\n"
 "\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:202
 #: inc/option-themes/OP_theme/02-core.php:233
 #: inc/option-themes/OP_theme/03-home.php:511
 msgid "Cocher ce qui doit être présent"
@@ -500,6 +527,18 @@ msgstr ""
 "\n"
 "\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:222
+msgid "Définir le message d'accroche"
+msgstr ""
+"Define the teaser message\n"
+"\n"
+
+#: inc/option-themes/OP_theme/07-errorpage.php:259
+msgid "Définir le message d'erreur"
+msgstr ""
+"Define the error message\n"
+"\n"
+
 #: inc/option-themes/OP_theme/06-contact.php:183
 #: inc/option-themes/OP_theme/04-about.php:319
 #: inc/option-themes/OP_theme/05-portfolio.php:225
@@ -525,6 +564,17 @@ msgstr "Email"
 msgid "Enza Lombardo"
 msgstr "Enza Lombardo"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:213
+msgid "Erreur 404"
+msgstr "404 error"
+
+#. slug parent
+#. page_title
+#: inc/option-themes/OP_theme/07-errorpage.php:55
+#: inc/option-themes/OP_theme/07-errorpage.php:56
+msgid "Error page"
+msgstr "Errorpage"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/03-network.php:109
 msgid "Facebook"
@@ -547,6 +597,8 @@ msgid "Francais"
 msgstr ""
 "French\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:225
+#: inc/option-themes/OP_theme/07-errorpage.php:262
 #: inc/option-themes/OP_theme/06-contact.php:186
 #: inc/option-themes/OP_theme/06-contact.php:227
 #: inc/option-themes/OP_theme/04-about.php:322
@@ -605,6 +657,7 @@ msgstr ""
 "\n"
 
 #. SLUG_SECTION
+#: inc/option-themes/OP_theme/07-errorpage.php:101
 #: inc/option-themes/OP_theme/06-contact.php:101
 #: inc/option-themes/OP_theme/01-customtheme.php:87
 #: inc/option-themes/OP_theme/01-customtheme.php:102
@@ -627,6 +680,13 @@ msgstr ""
 msgid "Gérer le header"
 msgstr ""
 "Manage header\n"
+
+#. SLUG_SECTION
+#: inc/option-themes/OP_theme/07-errorpage.php:137
+msgid "Gérer les messages"
+msgstr ""
+"Manage messages\n"
+"\n"
 
 #. SLUG_SECTION
 #: inc/option-themes/OP_theme/04-about.php:151
@@ -677,6 +737,8 @@ msgid "Intro"
 msgstr ""
 "Intro\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:243
+#: inc/option-themes/OP_theme/07-errorpage.php:270
 #: inc/option-themes/OP_theme/06-contact.php:204
 #: inc/option-themes/OP_theme/06-contact.php:235
 #: inc/option-themes/OP_theme/04-about.php:340
@@ -881,6 +943,12 @@ msgstr ""
 "Short message\n"
 "\n"
 
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/07-errorpage.php:152
+msgid "Message d'erreur"
+msgstr ""
+"Error message\n"
+
 #: inc/option-themes/OP_theme/04-about.php:450
 msgid "Message long"
 msgstr "Long message"
@@ -1002,6 +1070,12 @@ msgstr "Personalize about"
 msgid "Personnaliser l'accueil"
 msgstr ""
 "Customise the welcome\n"
+
+#: inc/option-themes/OP_theme/07-errorpage.php:69
+msgid "Personnaliser la page d'erreur 404"
+msgstr ""
+"Customise the 404 error page\n"
+"\n"
 
 #: inc/option-themes/OP_theme/05-portfolio.php:70
 msgid "Personnaliser portfolio"
@@ -1134,6 +1208,13 @@ msgstr ""
 "Repositories GitHub\n"
 "\n"
 
+#: template-parts/error/fr-error.php:29 template-parts/error/en-error.php:29
+#: template-parts/error/it-error.php:29
+msgid "Retour à l'accueil"
+msgstr ""
+"Back to homepage\n"
+"\n"
+
 #. SLUG_FIELD
 #: inc/option-themes/OP_theme/06-contact.php:129
 msgid "Réseaux sociaux"
@@ -1236,6 +1317,13 @@ msgstr "On this page you can manage the home section of the site"
 msgid "Sur cette page vous pouvez gérer la section contact du site"
 msgstr "On this page you can manage the contact section of the site"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:71
+msgid ""
+"Sur cette page vous pouvez gérer la section la page d'erreur 404 du site"
+msgstr ""
+"On this page you can manage the 404 error page section of the site\n"
+"\n"
+
 #: inc/option-themes/OP_theme/05-portfolio.php:72
 msgid "Sur cette page vous pouvez gérer la section portfolio du site"
 msgstr "On this page you can manage the portfolio section of the site"
@@ -1266,6 +1354,8 @@ msgstr "On this page you can manage the import of your CV"
 msgid "Sur cette page, vous pouvez parler de vous"
 msgstr "On this page you can talk about yourself"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:239
+#: inc/option-themes/OP_theme/07-errorpage.php:267
 #: inc/option-themes/OP_theme/06-contact.php:200
 #: inc/option-themes/OP_theme/06-contact.php:232
 #: inc/option-themes/OP_theme/04-about.php:336
@@ -1279,6 +1369,8 @@ msgid "Texte en anglais"
 msgstr ""
 "Text in English\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:230
+#: inc/option-themes/OP_theme/07-errorpage.php:263
 #: inc/option-themes/OP_theme/06-contact.php:191
 #: inc/option-themes/OP_theme/06-contact.php:228
 #: inc/option-themes/OP_theme/04-about.php:327
@@ -1292,6 +1384,8 @@ msgid "Texte en français"
 msgstr ""
 "Text in French\n"
 
+#: inc/option-themes/OP_theme/07-errorpage.php:248
+#: inc/option-themes/OP_theme/07-errorpage.php:271
 #: inc/option-themes/OP_theme/06-contact.php:209
 #: inc/option-themes/OP_theme/06-contact.php:236
 #: inc/option-themes/OP_theme/04-about.php:345
@@ -1304,6 +1398,13 @@ msgstr ""
 msgid "Texte en italien"
 msgstr ""
 "Text in Italian\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/07-errorpage.php:145
+msgid "Texte principal"
+msgstr ""
+"Main text\n"
+"\n"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:195
@@ -1349,6 +1450,11 @@ msgstr "Twitter"
 msgid "Type"
 msgstr ""
 "Type\n"
+
+#. SLUG_FIELD
+#: inc/option-themes/OP_theme/07-errorpage.php:116
+msgid "Type d'erreur"
+msgstr "Type of error"
 
 #. SLUG_FIELD
 #: inc/option-themes/OP_profile/01-personalDetails.php:164

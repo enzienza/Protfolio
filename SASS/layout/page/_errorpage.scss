@@ -1,0 +1,41 @@
+// main: ../_layout.scss
+
+.error{
+    margin: 0 auto;
+    text-align: center;
+    padding: 3%;
+    padding-top: 10%;
+
+    &-code{
+        bottom: 60%;
+        color: #2d353c;
+        font-size: 7em;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        font-family: $font-secondary;
+    }
+
+    &-desc{
+        p{
+            margin: 2% 15% 5%;
+        }
+    }
+
+    @include responsive(XL){}
+    @include responsive(LG){}
+    @include responsive(MD){}
+    @include responsive(SM){
+        &-desc p{
+            margin: 2em .5em;
+            padding: 0;
+            font-size: smaller;
+        }
+    }
+    @include responsive(XS){
+        &-desc p{
+            margin: 2em .5em;
+            padding: 0;
+            font-size: smaller;
+        }
+    }
+}
